@@ -1,0 +1,1941 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="534" width="192" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="7" />
+          <Fields>
+            <Field name="In-Date" />
+            <Field name="Out_Date" />
+            <Field name="Pattern" />
+            <Field name="Truck ID" />
+          </Fields>
+          <Data>
+            <r>
+              <c>8/1/2021</c>
+              <c>10/1/2021</c>
+              <c>12…..</c>
+              <c>1234</c>
+            </r>
+            <r>
+              <c>9/15/2021</c>
+              <c>9/15/2021</c>
+              <c>..3….</c>
+              <c>1234</c>
+            </r>
+            <r>
+              <c>6/1/2021</c>
+              <c>7/1/2021</c>
+              <c>12345..</c>
+              <c>1234</c>
+            </r>
+            <r>
+              <c>1/11/2021</c>
+              <c>1/22/2021</c>
+              <c>…4…</c>
+              <c>5678</c>
+            </r>
+            <r>
+              <c>3/15/2021</c>
+              <c>3/26/2021</c>
+              <c>1234567</c>
+              <c>5678</c>
+            </r>
+            <r>
+              <c>4/1/2021</c>
+              <c>4/1/2021</c>
+              <c>…4…</c>
+              <c>5678</c>
+            </r>
+            <r>
+              <c>4/5/2021</c>
+              <c>4/23/2021</c>
+              <c>12345..</c>
+              <c>5678</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Input data</AnnotationText>
+          <DefaultAnnotationText>Input data</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>iVBORw0KGgoAAAANSUhEUgAAAXoAAAA0CAIAAAAL52RvAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAScQAAEnEB89x6jgAAABJ0RVh0U29mdHdhcmUAR3JlZW5zaG90XlUIBQAADRxJREFUeF7tnd+OFccRh/0GzhvEb4DfwH4D+w3sN0jewFxxhxIpcGEJCS4s+WKJsYR9w14kYq8WIWE2CgqKMVqL4FUQ8kIisCVL5NtTvZXa6j/TZ2fm7J51fWqNTtdU93QPU7+pnjNneetNEATBSgi5CYJgRYTcBEGwIk5Gbv7y5D83Hu2nSrAOPHny5O7du7u7u6keBMuzarl5/OLn97/49q0/fUNJpmAdCLkJxrNSubn37NVvPv2baM2ycvPjT7+c395DqhCsZApWSMhNMJ6Vys0n2z+o1iwlN1anWIgla7BCQm6C8ayH3Lz96Y62Crk5EUJugvGsh9zYViE3J0LITTCekJugi5CbYDwhN0EXITfBeEJugi5CboLxhNwEXYTcBOMZkJsff/rlj988+3jz+/e/+Na+MkN59/OH2Nl779mr5D3EycoN4zy/vff72/9iLmz5/OWjF2lfMETITTCeAbn54KvvbKjXyjvXHhDAgy/gLSU3f7j3b3SBgq7ZVmgcSmHLoABdffDcaaUW7PSAqibXEuz965P/Skmmxe8wRLlEvJJ1AbvUv92zok2sdvNZ+0mmCnaEM70GGXITjGdAbj7a3HXx2SiEbmpWYSm5sZ7t8t6f/5naZBCHTq2KBZ+GLljNRQTxRGLUIiW5LrB2TmCy1kEN1f+31/6erEffNvrd7SfJmuHm2HPEYxByE4xnQG6463LRE8+EHGJhCxYbD1LaiQatrHOyVrCe7dKQm3Of/yN3luLsRGxqk2GdmXWeKLkBWHkalGCwg+QUJesiv1M7pXZuUSLrttbZzf7+PocAPiRTk9evX4s/JFOdTjdFBsMhUn3Bsp3s7e25TsTCNtVLFH0GW4GM2Z09LNYo1R7Ef0LGPip2CjKh3ORKUSs2RC3ucFRtCsNnF6i1fnJtcsUlFDce7du97d++ow7W2YmFPQmsWPMUjBOuDpTaFMYzq9wQCTdv3rx8+fIFA9XNzU0X7QLGra2tK1euJNdDsOzs7CSnDPG5detWqjd5+PCh+Lspi5HRpnqT27dvi7/t5LPPPsPCNtVLFH0WPV24f/9+qpeQI7JN9QXSUI1S7UFOwsWLFxsyxy5xvnPnTjLVGSs37nKfUG6UpQ6huDAmU0g7jmIVh3hO1qPkckNah8QwknvPXrHNVYA1kTq3Vzc2hXFZEtC/7qW4JRXHZcy6F21KO2ZgPrkhfuR6LcK1zkWfXBdwfWNMuxcQltaC6BTDI+2+cGEwR4BLly6Jc1FuYPBUoIk6qgnlph3808oNzoOjHXSwnFm5sTpiH4g4iFh1oxQ7d3JDVNsHukVc3pTrkWKF6eqD58lqcCfNjtAdZXBUY5hJbrglLi7sA4gHG0gciyQC+8bGRjId1Rr2Wn9SJHqQvcWYlFYwGBtWAWtyM9iJRL4wodwAelpM+kAOqsoiSCtnVBibOBT/cTmrsreYVemJaiig5czKjX2uVEttBKsmjDBZDdaBbnui2uVWRR0Bm7zQc02Viksqd1qKI5+QOeSGa1Qu1sYdG7sNLV1AuZRHwV8UB89kOgSjSlVjIpqVSILjPBetUz+NdU2jk5FyI93WVnOTyw1In6xtncbpHDvXp3A25ebYo/rgq++S1WDlJl/v1LAaUewWbHrSWHO56ciSyvZPitRIoCZhDrmRoILOe6PeS2uRI2j8ODkQI7HBluBJ1gyJLtxkeG7KB10sBsC20YnkZWzzTopS4ij6YAE9CUWxk4G58yP+tZOmp6vxjyui6XqQY6E4ToYanE25cd/pJGsFO6qimhxPbuzX25SiHNgUrD0vt2768OvHttpzTkYyudxoll67UedIatNzfTfCVe/JxXCVvXII6aQoN9pJMYZlajjwIe+kODZH0QcL8EG0DHKZFglwoxLn4lChR27UhxmJRf/5amlmkbMpN2QKtkmyVphJbtAXbUXJ11P2C6zG0yWB3uxTHlsk2ZmbyeVG79Kd1ysRLv498qSPhFJ9gVoat2WJZInMXCngoItFJzL+Y3RSlBJH0QcL8IEjivLmCxyZmlOWRbtRcgMbGxv4XL9+Xao9s8jpkhuu9S8fvTi/vcdNVd6j1eJeojslcmMFguLG7Ir9cmdCuQGrehwoWQ+xe3skw50HKStYRgmTy40EBnSupDQqamFjKYaQWORzcXUgd2x2SQxLRLkpH3RxtBP35EJTm1onPYFa9MEC8lkfUWn8C3JW3bwW7cbKDfOSI+KmTTTZ6WRAbh6/+Pnjze/dJd4op1Nu+su0cuNewLHv1Ljcx71uU8MtqSgr+w8t5pObVB9CL/Fa2FjU2Q5YLPJZcxMbMHID10VWrhRw0MVhJ3oU24m00pdQ8k6KUuIo+mCBVKk8yZKz6k5R7mYpnqsikjMyKhlezz+EoyU35P+1nxrVyhxy4x6CzCo3xee1x5YbsCsg+wWZndS57vdlnPL2vLI8FfPJTecdUqOi5yovhpBYUuUwpHVpJk1IWKQK4uCmfNBF1ommGD2diIVtqpco+mCBVFkgj71B+5ez6k6R+NTOm4wZ3EyL6DeDmgMuRVVuuN86rSEq0AsKd1Suey3Wh2pqX+J4cuNatQ8hWIFg2DrUwZLaH2WM3NjB299J2D7zxzo1mIu2kkL/ad/MzCc3nX2yfBD/HrmR12HBaplYUsWEmazmarrghrdo8f9OdFTiJk00P4Jat2xTvUTRBwukyiHu8fnccqMndqknxEpVbuwPf9ovm6gbpRaxwonIzfgUYIzcuBdwZNHkjJ0PX9x50DLr233K5HKjF26PfAjyrCR/oSZHbvs2y4DF0Y6Eq6yeiGpZmLjwlph3Uz7o4mgn8mAYZ4nbwU70oKleQlo5HyyQKoegp/JIRU7L3HKzlHNOVW7sBd1+Tc56nkK5oSTrcRkjN2Cby5m039M3Xrex2BcCXWn8uHRCJpcbkDhpvL3ikMAevNa5z0vPulASpG2qLCBWxSj+7qF1rhSwcPed6ETYOv+8E1EEmqR6CRHWomqkikGFG5FdS7khpO0F3Y7wfs+VyY1rMvK7m5FyYx/TyM+y7Jqo81mvbUKy6V4sYr7JbzbmkBuJDahFgkPVgTt548GBqpJdSYEYU+UQffzhtAk65QZ0Ii4fgbwTXX/ZNZdFQ9rJnxhT5Sg6C1lbrbfcJGsF67mU3BxvEdEjN278/Q9HioyUG6ZpX+ez6jP4uo3gxEVSJDsqytxLqjnkRtMQqP2emECyQqCBTVw5NQE6vH79ujjkHYo9VQ6RMUDeW7/cLNuJGPHPzycSg529uXIdHLgiNyB9CustN+0I7/c8hnCAC7aedMB9zZy/87IUI+UG3GuHWnpet3HP7HUA2K2Kzb2kmkNuQKMLWIygERxC4LMsT1wYa/ICiMvW1harCbbYtas8VQHZlSoGxAJSxdAvN7BUJ0xHh8oUdnZ2FjPe3dzcFCN7XWoDsitVMji69rlmcuOeFDSyA/fUs60g9sZO6Xxs4bSvs5WL8DEJzni5cVPQIk+O29ijoy+2STHrmYmZ5AaIK1kCFCFc88BjGSJPN3Kw1xYp4pAqHSwlNzWKnUBj1kwhnzLI3lQpoVqwZnID9s75zrUHeWAgSfkbgNxj5e8Hk1DkEZ4/78RTeiYfkReX80WBUzSK/l1ktv2tcCsu3xqHFsbLDeQ/QTjX8bqNE5T8GY0dG0mQnJY5mE9uBDIUUhKCk1s08cYHllHtw9GEENrY2MCZLZ+xpH0lcINU6YAB4O8if5JOFJSRkYvuMGs+17QSeg7NGcg7kYa1nhmbONQGaVnKOacqN/kLrCiI/AcGH3792L74XyvFb6BrP/zRMvib7GIpLiXc2k0KnjIR+UGGnUhtPTKJ3OSDGUy40A67jCrKk1PVkcvGBnPLTfBroCo33PMHpYGCT0ML8nyhtqzQUhSpPC3KS3I9Su2hSa0U059J5CbPtorHsrgTW0u+nJDNtKQKuQnGU5Ub4PrOX2O1hQyImCGQ7MpLi3vQoHBXL/pLqf1pmBuP9hutGguTPE1rlOKAJ5EbsP0MPoFyz7nQlLSjhP1nmmlJFXITjKclNwLXPRKgmQ4xT9hwC7U3Zz4TP+rD1U+QNy56/OmBbulKOqQQUbUbuFBsxYEGv6tiJAyvoVaMvDFgBiZt2Q6ugBowcj3i4JiZqUxQ5pisFThv6kxpn8bjEXITjGdYbs4SxCFxjnxIIaRZ3M2RC+RwFNUaZCtZ14eQm2A8vy65OUHsmm4wWzmFhNwE4wm5WQUsA+13TKvJp6Yl5CYYT8jNKmDhplrz3oiHzSdIyE0wnpCb2bn37JVNbdovXp9aQm6C8YTczAhrqPPbe1Zr1jS1gZCbYDwhNxODoCAr7x79i/FS3q7/x3Wnn5CbYDwhNxPjJEYLWjPH6zArI+QmGE/IzcQ4lZHy0ebu+uY1QshNMJ6Qm4nR957ZfrL9w9UHz9fxa++cly9fPn36NP/zUUHQT8hNEAQrIuQmCIIVEXITBMFKePPmf4GyDTAL6GK4AAAAAElFTkSuQmCC</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="702" y="78" width="288" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #310</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="138" width="912" height="372" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>This week we have a data restructuring challenge regarding equipment maintenance schedules. Imagine that you’ve been tasked with creating an Excel spreadsheet which reports the days on which a truck was in the shop for service. Currently the data are structured such that there are multiple records per truck ID, a date-in value and a date-out value, and a “pattern” variable to indicate on which days the truck was actually being serviced. 
+
+A large shipping firm has a fleet of thousands of trucks (though the data for this challenge is provided for only two trucks).  The company’s management needs the maintenance history for every truck, placing a 0 or a 1 in the column for every date - beginning at the earliest date in the data and continuing to the latest date – on which the truck was being serviced.
+
+The In-Date and the Out-Date variables indicate the start and end date of the period of time within which the truck was taken off line for service, but not necessarily serviced on each and every day within that span of time. The “Pattern” value indicates which days within the indicated time span that the truck actually received service.
+
+The “Pattern” variable is a string variable in the form of “123.567” or “…456.” or “……7” or any such variation, where the number corresponds to the weekday (with a “1” indicating “Monday” and a “2” indicating a “Tuesday” etc.) and the periods within the pattern indicating a day when the truck was not being serviced.  So, for example, if a pattern value is “12.4567” then we know it was in the garage for every day of the week, except for Wednesday.  More, a value of “12345..” indicates that the truck had the weekend off.
+
+Hint: This challenge can be solved with and without the use of a macro</Text>
+          <Font name="Microsoft Sans Serif" size="12" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="174" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\SAIVAM~1\AppData\Local\Temp\Engine_26080_e1b3170a694b470081ac13936abc4d89_\Engine_24172_bcc642c6851f4948a8177ac55a8551f0_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="774" y="534" width="192" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="786" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Output.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>Output.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Truck ID" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int16" />
+            <Field name="2021-01-11" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-12" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-13" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-14" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-15" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-16" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-17" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-18" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-19" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-20" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-21" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-22" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-23" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-24" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-25" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-26" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-27" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-28" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-29" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-30" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-01-31" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-01" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-02" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-03" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-04" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-05" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-06" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-07" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-08" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-09" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-10" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-11" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-12" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-13" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-14" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-15" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-16" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-17" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-18" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-19" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-20" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-21" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-22" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-23" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-24" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-25" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-26" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-27" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-02-28" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-01" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-02" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-03" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-04" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-05" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-06" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-07" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-08" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-09" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-10" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-11" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-12" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-13" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-14" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-15" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-16" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-17" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-18" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-19" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-20" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-21" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-22" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-23" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-24" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-25" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-26" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-27" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-28" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-29" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-30" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-03-31" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-01" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-02" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-03" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-04" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-05" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-06" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-07" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-08" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-09" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-10" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-11" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-12" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-13" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-14" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-15" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-16" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-17" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-18" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-19" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-20" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-21" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-22" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-23" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-24" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-25" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-26" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-27" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-28" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-29" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-04-30" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-01" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-02" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-03" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-04" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-05" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-06" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-07" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-08" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-09" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-10" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-11" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-12" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-13" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-14" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-15" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-16" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-17" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-18" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-19" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-20" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-21" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-22" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-23" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-24" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-25" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-26" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-27" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-28" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-29" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-30" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-05-31" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-01" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-02" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-03" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-04" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-05" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-06" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-07" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-08" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-09" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-10" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-11" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-12" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-13" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-14" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-15" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-16" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-17" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-18" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-19" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-20" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-21" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-22" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-23" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-24" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-25" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-26" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-27" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-28" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-29" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-06-30" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-01" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-02" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-03" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-04" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-05" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-06" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-07" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-08" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-09" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-10" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-11" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-12" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-13" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-14" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-15" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-16" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-17" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-18" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-19" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-20" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-21" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-22" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-23" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-24" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-25" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-26" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-27" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-28" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-29" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-30" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-07-31" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-01" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-02" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-03" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-04" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-05" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-06" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-07" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-08" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-09" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-10" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-11" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-12" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-13" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-14" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-15" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-16" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-17" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-18" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-19" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-20" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-21" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-22" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-23" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-24" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-25" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-26" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-27" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-28" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-29" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-30" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-08-31" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-01" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-02" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-03" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-04" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-05" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-06" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-07" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-08" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-09" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-10" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-11" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-12" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-13" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-14" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-15" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-16" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-17" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-18" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-19" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-20" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-21" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-22" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-23" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-24" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-25" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-26" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-27" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-28" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-29" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-09-30" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+            <Field name="2021-10-01" source="Formula: IF IsNull([_CurrentField_]) then 0 else [_CurrentField_] endif" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="894" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\SAIVAM~1\AppData\Local\Temp\Engine_26080_e1b3170a694b470081ac13936abc4d89_\Engine_24172_09976139f2d849228bfc4d79068fcecb_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="138" y="798" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Text</FieldType>
+          <Fields orderChanged="False">
+            <Field name="In-Date" />
+            <Field name="Out_Date" />
+            <Field name="Pattern" selected="False" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>DateTimeParse([_CurrentField_], '%m/%d/%Y')</Expression>
+          <ChangeFieldType value="True" />
+          <OutputFieldType type="Date" size="10" scale="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Parse In-Date and Out-Date columns to datetime format</AnnotationText>
+          <DefaultAnnotationText>DateTimeParse([_CurrentField_], '%m/%d/%Y')</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="342" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="In-Date" action="Min" rename="Min_In-Date" />
+            <SummarizeField field="Out_Date" action="Max" rename="Max_Out_Date" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Extract Min In-Date and Max Out-Date</AnnotationText>
+          <DefaultAnnotationText>Extract Min In-Date and Max Out-Date</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="438" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Truck ID" action="GroupBy" rename="Truck ID" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Extract Unique Truck ID's</AnnotationText>
+          <DefaultAnnotationText>Extract Unique Truck ID's</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
+        <Position x="462" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name />
+          <CreateField_Name>Date</CreateField_Name>
+          <CreateField_Type>Date</CreateField_Type>
+          <CreateField_Size>10</CreateField_Size>
+          <Expression_Init>[Min_In-Date]</Expression_Init>
+          <Expression_Cond>[Date] &lt;= [Max_Out_Date]</Expression_Cond>
+          <Expression_Loop>DateTimeAdd([Date], 1 , 'days')</Expression_Loop>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Generate dates between the date range</AnnotationText>
+          <DefaultAnnotationText>Generate dates between the Min In-Date and Max Out-Date</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="582" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Drop Min and Max columns</AnnotationText>
+          <DefaultAnnotationText>Dropping Min and Max columns</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="738" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Source_Truck ID" selected="True" input="Source_" />
+                <SelectField field="Target_Date" selected="True" input="Target_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Append Dates and Truck ID's</AnnotationText>
+          <DefaultAnnotationText>Append Dates and Truck ID's</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="282" y="918" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Pattern</Field>
+          <RegExExpression value="\d" />
+          <CaseInsensitve value="True" />
+          <Method>ParseSimple</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="True" />
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>In-Date_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Extract only digits and split each digits into rows ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Extract only the digits and tokenize as ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
+        <Position x="390" y="918" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name />
+          <CreateField_Name>Date</CreateField_Name>
+          <CreateField_Type>Date</CreateField_Type>
+          <CreateField_Size>10</CreateField_Size>
+          <Expression_Init>[In-Date]</Expression_Init>
+          <Expression_Cond>[Date] &lt;= [Out_Date]</Expression_Cond>
+          <Expression_Loop>DateTimeAdd([Date], 1 , 'days')</Expression_Loop>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Generate dates between the date range</AnnotationText>
+          <DefaultAnnotationText>Generate dates between the date range</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="510" y="918" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeFormat([Date], '%u')" field="Weekday" size="64" type="WString" />
+            <FormulaField expression="IF [Pattern] = [Weekday] THEN 1 ELSE 0 ENDIF" field="Flag" size="8" type="Int64" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Extract Weekday number and add column "Flag" where pattern matches with Weekday number</AnnotationText>
+          <DefaultAnnotationText>Weekday = DateTimeFormat([Date], '%u')
+Flag = IF [Pattern] = [Weekday] THEN 1 EL...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="630" y="918" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Flag</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-03-26 22:08:03</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>1</Operand>
+              <StartDate>2022-03-26 22:08:03</StartDate>
+              <EndDate>2022-03-26 22:08:03</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Flag = 1</AnnotationText>
+          <DefaultAnnotationText>[Flag] = 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="738" y="918" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Truck ID" selected="True" />
+            <SelectField field="Date" selected="True" />
+            <SelectField field="Flag" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Drop unnecessary columns</AnnotationText>
+          <DefaultAnnotationText>Drop unnecessary columns</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="846" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Truck ID" />
+            <Field field="Date" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Truck ID" />
+            <Field field="Date" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Truck ID" selected="False" rename="Right_Truck ID" input="Right_" />
+                <SelectField field="Right_Date" selected="False" rename="Right_Date" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Join on Date and Truck ID</AnnotationText>
+          <DefaultAnnotationText>Join on Date and Truck ID</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="966" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Union to create left join</AnnotationText>
+          <DefaultAnnotationText>Union to create left join</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="79">
+      <GuiSettings>
+        <Position x="1074" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Flag"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">False</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Replace Null values with 0</AnnotationText>
+          <DefaultAnnotationText>Replace Null values with 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="80">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="1194" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Truck ID" />
+          </GroupFields>
+          <HeaderField field="Date" />
+          <DataField field="Flag" />
+          <Methods>
+            <Method method="Sum" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Cross tab on Dates and Truck ID's</AnnotationText>
+          <DefaultAnnotationText>Cross tab on Dates and Truck ID's</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Truck ID" source="CrossTab:Group:Sum:" type="Int16" />
+            <Field name="2021_01_11" source="CrossTab:Header:Date:2021-01-11:Sum:" type="Int64" />
+            <Field name="2021_01_12" source="CrossTab:Header:Date:2021-01-12:Sum:" type="Int64" />
+            <Field name="2021_01_13" source="CrossTab:Header:Date:2021-01-13:Sum:" type="Int64" />
+            <Field name="2021_01_14" source="CrossTab:Header:Date:2021-01-14:Sum:" type="Int64" />
+            <Field name="2021_01_15" source="CrossTab:Header:Date:2021-01-15:Sum:" type="Int64" />
+            <Field name="2021_01_16" source="CrossTab:Header:Date:2021-01-16:Sum:" type="Int64" />
+            <Field name="2021_01_17" source="CrossTab:Header:Date:2021-01-17:Sum:" type="Int64" />
+            <Field name="2021_01_18" source="CrossTab:Header:Date:2021-01-18:Sum:" type="Int64" />
+            <Field name="2021_01_19" source="CrossTab:Header:Date:2021-01-19:Sum:" type="Int64" />
+            <Field name="2021_01_20" source="CrossTab:Header:Date:2021-01-20:Sum:" type="Int64" />
+            <Field name="2021_01_21" source="CrossTab:Header:Date:2021-01-21:Sum:" type="Int64" />
+            <Field name="2021_01_22" source="CrossTab:Header:Date:2021-01-22:Sum:" type="Int64" />
+            <Field name="2021_01_23" source="CrossTab:Header:Date:2021-01-23:Sum:" type="Int64" />
+            <Field name="2021_01_24" source="CrossTab:Header:Date:2021-01-24:Sum:" type="Int64" />
+            <Field name="2021_01_25" source="CrossTab:Header:Date:2021-01-25:Sum:" type="Int64" />
+            <Field name="2021_01_26" source="CrossTab:Header:Date:2021-01-26:Sum:" type="Int64" />
+            <Field name="2021_01_27" source="CrossTab:Header:Date:2021-01-27:Sum:" type="Int64" />
+            <Field name="2021_01_28" source="CrossTab:Header:Date:2021-01-28:Sum:" type="Int64" />
+            <Field name="2021_01_29" source="CrossTab:Header:Date:2021-01-29:Sum:" type="Int64" />
+            <Field name="2021_01_30" source="CrossTab:Header:Date:2021-01-30:Sum:" type="Int64" />
+            <Field name="2021_01_31" source="CrossTab:Header:Date:2021-01-31:Sum:" type="Int64" />
+            <Field name="2021_02_01" source="CrossTab:Header:Date:2021-02-01:Sum:" type="Int64" />
+            <Field name="2021_02_02" source="CrossTab:Header:Date:2021-02-02:Sum:" type="Int64" />
+            <Field name="2021_02_03" source="CrossTab:Header:Date:2021-02-03:Sum:" type="Int64" />
+            <Field name="2021_02_04" source="CrossTab:Header:Date:2021-02-04:Sum:" type="Int64" />
+            <Field name="2021_02_05" source="CrossTab:Header:Date:2021-02-05:Sum:" type="Int64" />
+            <Field name="2021_02_06" source="CrossTab:Header:Date:2021-02-06:Sum:" type="Int64" />
+            <Field name="2021_02_07" source="CrossTab:Header:Date:2021-02-07:Sum:" type="Int64" />
+            <Field name="2021_02_08" source="CrossTab:Header:Date:2021-02-08:Sum:" type="Int64" />
+            <Field name="2021_02_09" source="CrossTab:Header:Date:2021-02-09:Sum:" type="Int64" />
+            <Field name="2021_02_10" source="CrossTab:Header:Date:2021-02-10:Sum:" type="Int64" />
+            <Field name="2021_02_11" source="CrossTab:Header:Date:2021-02-11:Sum:" type="Int64" />
+            <Field name="2021_02_12" source="CrossTab:Header:Date:2021-02-12:Sum:" type="Int64" />
+            <Field name="2021_02_13" source="CrossTab:Header:Date:2021-02-13:Sum:" type="Int64" />
+            <Field name="2021_02_14" source="CrossTab:Header:Date:2021-02-14:Sum:" type="Int64" />
+            <Field name="2021_02_15" source="CrossTab:Header:Date:2021-02-15:Sum:" type="Int64" />
+            <Field name="2021_02_16" source="CrossTab:Header:Date:2021-02-16:Sum:" type="Int64" />
+            <Field name="2021_02_17" source="CrossTab:Header:Date:2021-02-17:Sum:" type="Int64" />
+            <Field name="2021_02_18" source="CrossTab:Header:Date:2021-02-18:Sum:" type="Int64" />
+            <Field name="2021_02_19" source="CrossTab:Header:Date:2021-02-19:Sum:" type="Int64" />
+            <Field name="2021_02_20" source="CrossTab:Header:Date:2021-02-20:Sum:" type="Int64" />
+            <Field name="2021_02_21" source="CrossTab:Header:Date:2021-02-21:Sum:" type="Int64" />
+            <Field name="2021_02_22" source="CrossTab:Header:Date:2021-02-22:Sum:" type="Int64" />
+            <Field name="2021_02_23" source="CrossTab:Header:Date:2021-02-23:Sum:" type="Int64" />
+            <Field name="2021_02_24" source="CrossTab:Header:Date:2021-02-24:Sum:" type="Int64" />
+            <Field name="2021_02_25" source="CrossTab:Header:Date:2021-02-25:Sum:" type="Int64" />
+            <Field name="2021_02_26" source="CrossTab:Header:Date:2021-02-26:Sum:" type="Int64" />
+            <Field name="2021_02_27" source="CrossTab:Header:Date:2021-02-27:Sum:" type="Int64" />
+            <Field name="2021_02_28" source="CrossTab:Header:Date:2021-02-28:Sum:" type="Int64" />
+            <Field name="2021_03_01" source="CrossTab:Header:Date:2021-03-01:Sum:" type="Int64" />
+            <Field name="2021_03_02" source="CrossTab:Header:Date:2021-03-02:Sum:" type="Int64" />
+            <Field name="2021_03_03" source="CrossTab:Header:Date:2021-03-03:Sum:" type="Int64" />
+            <Field name="2021_03_04" source="CrossTab:Header:Date:2021-03-04:Sum:" type="Int64" />
+            <Field name="2021_03_05" source="CrossTab:Header:Date:2021-03-05:Sum:" type="Int64" />
+            <Field name="2021_03_06" source="CrossTab:Header:Date:2021-03-06:Sum:" type="Int64" />
+            <Field name="2021_03_07" source="CrossTab:Header:Date:2021-03-07:Sum:" type="Int64" />
+            <Field name="2021_03_08" source="CrossTab:Header:Date:2021-03-08:Sum:" type="Int64" />
+            <Field name="2021_03_09" source="CrossTab:Header:Date:2021-03-09:Sum:" type="Int64" />
+            <Field name="2021_03_10" source="CrossTab:Header:Date:2021-03-10:Sum:" type="Int64" />
+            <Field name="2021_03_11" source="CrossTab:Header:Date:2021-03-11:Sum:" type="Int64" />
+            <Field name="2021_03_12" source="CrossTab:Header:Date:2021-03-12:Sum:" type="Int64" />
+            <Field name="2021_03_13" source="CrossTab:Header:Date:2021-03-13:Sum:" type="Int64" />
+            <Field name="2021_03_14" source="CrossTab:Header:Date:2021-03-14:Sum:" type="Int64" />
+            <Field name="2021_03_15" source="CrossTab:Header:Date:2021-03-15:Sum:" type="Int64" />
+            <Field name="2021_03_16" source="CrossTab:Header:Date:2021-03-16:Sum:" type="Int64" />
+            <Field name="2021_03_17" source="CrossTab:Header:Date:2021-03-17:Sum:" type="Int64" />
+            <Field name="2021_03_18" source="CrossTab:Header:Date:2021-03-18:Sum:" type="Int64" />
+            <Field name="2021_03_19" source="CrossTab:Header:Date:2021-03-19:Sum:" type="Int64" />
+            <Field name="2021_03_20" source="CrossTab:Header:Date:2021-03-20:Sum:" type="Int64" />
+            <Field name="2021_03_21" source="CrossTab:Header:Date:2021-03-21:Sum:" type="Int64" />
+            <Field name="2021_03_22" source="CrossTab:Header:Date:2021-03-22:Sum:" type="Int64" />
+            <Field name="2021_03_23" source="CrossTab:Header:Date:2021-03-23:Sum:" type="Int64" />
+            <Field name="2021_03_24" source="CrossTab:Header:Date:2021-03-24:Sum:" type="Int64" />
+            <Field name="2021_03_25" source="CrossTab:Header:Date:2021-03-25:Sum:" type="Int64" />
+            <Field name="2021_03_26" source="CrossTab:Header:Date:2021-03-26:Sum:" type="Int64" />
+            <Field name="2021_03_27" source="CrossTab:Header:Date:2021-03-27:Sum:" type="Int64" />
+            <Field name="2021_03_28" source="CrossTab:Header:Date:2021-03-28:Sum:" type="Int64" />
+            <Field name="2021_03_29" source="CrossTab:Header:Date:2021-03-29:Sum:" type="Int64" />
+            <Field name="2021_03_30" source="CrossTab:Header:Date:2021-03-30:Sum:" type="Int64" />
+            <Field name="2021_03_31" source="CrossTab:Header:Date:2021-03-31:Sum:" type="Int64" />
+            <Field name="2021_04_01" source="CrossTab:Header:Date:2021-04-01:Sum:" type="Int64" />
+            <Field name="2021_04_02" source="CrossTab:Header:Date:2021-04-02:Sum:" type="Int64" />
+            <Field name="2021_04_03" source="CrossTab:Header:Date:2021-04-03:Sum:" type="Int64" />
+            <Field name="2021_04_04" source="CrossTab:Header:Date:2021-04-04:Sum:" type="Int64" />
+            <Field name="2021_04_05" source="CrossTab:Header:Date:2021-04-05:Sum:" type="Int64" />
+            <Field name="2021_04_06" source="CrossTab:Header:Date:2021-04-06:Sum:" type="Int64" />
+            <Field name="2021_04_07" source="CrossTab:Header:Date:2021-04-07:Sum:" type="Int64" />
+            <Field name="2021_04_08" source="CrossTab:Header:Date:2021-04-08:Sum:" type="Int64" />
+            <Field name="2021_04_09" source="CrossTab:Header:Date:2021-04-09:Sum:" type="Int64" />
+            <Field name="2021_04_10" source="CrossTab:Header:Date:2021-04-10:Sum:" type="Int64" />
+            <Field name="2021_04_11" source="CrossTab:Header:Date:2021-04-11:Sum:" type="Int64" />
+            <Field name="2021_04_12" source="CrossTab:Header:Date:2021-04-12:Sum:" type="Int64" />
+            <Field name="2021_04_13" source="CrossTab:Header:Date:2021-04-13:Sum:" type="Int64" />
+            <Field name="2021_04_14" source="CrossTab:Header:Date:2021-04-14:Sum:" type="Int64" />
+            <Field name="2021_04_15" source="CrossTab:Header:Date:2021-04-15:Sum:" type="Int64" />
+            <Field name="2021_04_16" source="CrossTab:Header:Date:2021-04-16:Sum:" type="Int64" />
+            <Field name="2021_04_17" source="CrossTab:Header:Date:2021-04-17:Sum:" type="Int64" />
+            <Field name="2021_04_18" source="CrossTab:Header:Date:2021-04-18:Sum:" type="Int64" />
+            <Field name="2021_04_19" source="CrossTab:Header:Date:2021-04-19:Sum:" type="Int64" />
+            <Field name="2021_04_20" source="CrossTab:Header:Date:2021-04-20:Sum:" type="Int64" />
+            <Field name="2021_04_21" source="CrossTab:Header:Date:2021-04-21:Sum:" type="Int64" />
+            <Field name="2021_04_22" source="CrossTab:Header:Date:2021-04-22:Sum:" type="Int64" />
+            <Field name="2021_04_23" source="CrossTab:Header:Date:2021-04-23:Sum:" type="Int64" />
+            <Field name="2021_04_24" source="CrossTab:Header:Date:2021-04-24:Sum:" type="Int64" />
+            <Field name="2021_04_25" source="CrossTab:Header:Date:2021-04-25:Sum:" type="Int64" />
+            <Field name="2021_04_26" source="CrossTab:Header:Date:2021-04-26:Sum:" type="Int64" />
+            <Field name="2021_04_27" source="CrossTab:Header:Date:2021-04-27:Sum:" type="Int64" />
+            <Field name="2021_04_28" source="CrossTab:Header:Date:2021-04-28:Sum:" type="Int64" />
+            <Field name="2021_04_29" source="CrossTab:Header:Date:2021-04-29:Sum:" type="Int64" />
+            <Field name="2021_04_30" source="CrossTab:Header:Date:2021-04-30:Sum:" type="Int64" />
+            <Field name="2021_05_01" source="CrossTab:Header:Date:2021-05-01:Sum:" type="Int64" />
+            <Field name="2021_05_02" source="CrossTab:Header:Date:2021-05-02:Sum:" type="Int64" />
+            <Field name="2021_05_03" source="CrossTab:Header:Date:2021-05-03:Sum:" type="Int64" />
+            <Field name="2021_05_04" source="CrossTab:Header:Date:2021-05-04:Sum:" type="Int64" />
+            <Field name="2021_05_05" source="CrossTab:Header:Date:2021-05-05:Sum:" type="Int64" />
+            <Field name="2021_05_06" source="CrossTab:Header:Date:2021-05-06:Sum:" type="Int64" />
+            <Field name="2021_05_07" source="CrossTab:Header:Date:2021-05-07:Sum:" type="Int64" />
+            <Field name="2021_05_08" source="CrossTab:Header:Date:2021-05-08:Sum:" type="Int64" />
+            <Field name="2021_05_09" source="CrossTab:Header:Date:2021-05-09:Sum:" type="Int64" />
+            <Field name="2021_05_10" source="CrossTab:Header:Date:2021-05-10:Sum:" type="Int64" />
+            <Field name="2021_05_11" source="CrossTab:Header:Date:2021-05-11:Sum:" type="Int64" />
+            <Field name="2021_05_12" source="CrossTab:Header:Date:2021-05-12:Sum:" type="Int64" />
+            <Field name="2021_05_13" source="CrossTab:Header:Date:2021-05-13:Sum:" type="Int64" />
+            <Field name="2021_05_14" source="CrossTab:Header:Date:2021-05-14:Sum:" type="Int64" />
+            <Field name="2021_05_15" source="CrossTab:Header:Date:2021-05-15:Sum:" type="Int64" />
+            <Field name="2021_05_16" source="CrossTab:Header:Date:2021-05-16:Sum:" type="Int64" />
+            <Field name="2021_05_17" source="CrossTab:Header:Date:2021-05-17:Sum:" type="Int64" />
+            <Field name="2021_05_18" source="CrossTab:Header:Date:2021-05-18:Sum:" type="Int64" />
+            <Field name="2021_05_19" source="CrossTab:Header:Date:2021-05-19:Sum:" type="Int64" />
+            <Field name="2021_05_20" source="CrossTab:Header:Date:2021-05-20:Sum:" type="Int64" />
+            <Field name="2021_05_21" source="CrossTab:Header:Date:2021-05-21:Sum:" type="Int64" />
+            <Field name="2021_05_22" source="CrossTab:Header:Date:2021-05-22:Sum:" type="Int64" />
+            <Field name="2021_05_23" source="CrossTab:Header:Date:2021-05-23:Sum:" type="Int64" />
+            <Field name="2021_05_24" source="CrossTab:Header:Date:2021-05-24:Sum:" type="Int64" />
+            <Field name="2021_05_25" source="CrossTab:Header:Date:2021-05-25:Sum:" type="Int64" />
+            <Field name="2021_05_26" source="CrossTab:Header:Date:2021-05-26:Sum:" type="Int64" />
+            <Field name="2021_05_27" source="CrossTab:Header:Date:2021-05-27:Sum:" type="Int64" />
+            <Field name="2021_05_28" source="CrossTab:Header:Date:2021-05-28:Sum:" type="Int64" />
+            <Field name="2021_05_29" source="CrossTab:Header:Date:2021-05-29:Sum:" type="Int64" />
+            <Field name="2021_05_30" source="CrossTab:Header:Date:2021-05-30:Sum:" type="Int64" />
+            <Field name="2021_05_31" source="CrossTab:Header:Date:2021-05-31:Sum:" type="Int64" />
+            <Field name="2021_06_01" source="CrossTab:Header:Date:2021-06-01:Sum:" type="Int64" />
+            <Field name="2021_06_02" source="CrossTab:Header:Date:2021-06-02:Sum:" type="Int64" />
+            <Field name="2021_06_03" source="CrossTab:Header:Date:2021-06-03:Sum:" type="Int64" />
+            <Field name="2021_06_04" source="CrossTab:Header:Date:2021-06-04:Sum:" type="Int64" />
+            <Field name="2021_06_05" source="CrossTab:Header:Date:2021-06-05:Sum:" type="Int64" />
+            <Field name="2021_06_06" source="CrossTab:Header:Date:2021-06-06:Sum:" type="Int64" />
+            <Field name="2021_06_07" source="CrossTab:Header:Date:2021-06-07:Sum:" type="Int64" />
+            <Field name="2021_06_08" source="CrossTab:Header:Date:2021-06-08:Sum:" type="Int64" />
+            <Field name="2021_06_09" source="CrossTab:Header:Date:2021-06-09:Sum:" type="Int64" />
+            <Field name="2021_06_10" source="CrossTab:Header:Date:2021-06-10:Sum:" type="Int64" />
+            <Field name="2021_06_11" source="CrossTab:Header:Date:2021-06-11:Sum:" type="Int64" />
+            <Field name="2021_06_12" source="CrossTab:Header:Date:2021-06-12:Sum:" type="Int64" />
+            <Field name="2021_06_13" source="CrossTab:Header:Date:2021-06-13:Sum:" type="Int64" />
+            <Field name="2021_06_14" source="CrossTab:Header:Date:2021-06-14:Sum:" type="Int64" />
+            <Field name="2021_06_15" source="CrossTab:Header:Date:2021-06-15:Sum:" type="Int64" />
+            <Field name="2021_06_16" source="CrossTab:Header:Date:2021-06-16:Sum:" type="Int64" />
+            <Field name="2021_06_17" source="CrossTab:Header:Date:2021-06-17:Sum:" type="Int64" />
+            <Field name="2021_06_18" source="CrossTab:Header:Date:2021-06-18:Sum:" type="Int64" />
+            <Field name="2021_06_19" source="CrossTab:Header:Date:2021-06-19:Sum:" type="Int64" />
+            <Field name="2021_06_20" source="CrossTab:Header:Date:2021-06-20:Sum:" type="Int64" />
+            <Field name="2021_06_21" source="CrossTab:Header:Date:2021-06-21:Sum:" type="Int64" />
+            <Field name="2021_06_22" source="CrossTab:Header:Date:2021-06-22:Sum:" type="Int64" />
+            <Field name="2021_06_23" source="CrossTab:Header:Date:2021-06-23:Sum:" type="Int64" />
+            <Field name="2021_06_24" source="CrossTab:Header:Date:2021-06-24:Sum:" type="Int64" />
+            <Field name="2021_06_25" source="CrossTab:Header:Date:2021-06-25:Sum:" type="Int64" />
+            <Field name="2021_06_26" source="CrossTab:Header:Date:2021-06-26:Sum:" type="Int64" />
+            <Field name="2021_06_27" source="CrossTab:Header:Date:2021-06-27:Sum:" type="Int64" />
+            <Field name="2021_06_28" source="CrossTab:Header:Date:2021-06-28:Sum:" type="Int64" />
+            <Field name="2021_06_29" source="CrossTab:Header:Date:2021-06-29:Sum:" type="Int64" />
+            <Field name="2021_06_30" source="CrossTab:Header:Date:2021-06-30:Sum:" type="Int64" />
+            <Field name="2021_07_01" source="CrossTab:Header:Date:2021-07-01:Sum:" type="Int64" />
+            <Field name="2021_07_02" source="CrossTab:Header:Date:2021-07-02:Sum:" type="Int64" />
+            <Field name="2021_07_03" source="CrossTab:Header:Date:2021-07-03:Sum:" type="Int64" />
+            <Field name="2021_07_04" source="CrossTab:Header:Date:2021-07-04:Sum:" type="Int64" />
+            <Field name="2021_07_05" source="CrossTab:Header:Date:2021-07-05:Sum:" type="Int64" />
+            <Field name="2021_07_06" source="CrossTab:Header:Date:2021-07-06:Sum:" type="Int64" />
+            <Field name="2021_07_07" source="CrossTab:Header:Date:2021-07-07:Sum:" type="Int64" />
+            <Field name="2021_07_08" source="CrossTab:Header:Date:2021-07-08:Sum:" type="Int64" />
+            <Field name="2021_07_09" source="CrossTab:Header:Date:2021-07-09:Sum:" type="Int64" />
+            <Field name="2021_07_10" source="CrossTab:Header:Date:2021-07-10:Sum:" type="Int64" />
+            <Field name="2021_07_11" source="CrossTab:Header:Date:2021-07-11:Sum:" type="Int64" />
+            <Field name="2021_07_12" source="CrossTab:Header:Date:2021-07-12:Sum:" type="Int64" />
+            <Field name="2021_07_13" source="CrossTab:Header:Date:2021-07-13:Sum:" type="Int64" />
+            <Field name="2021_07_14" source="CrossTab:Header:Date:2021-07-14:Sum:" type="Int64" />
+            <Field name="2021_07_15" source="CrossTab:Header:Date:2021-07-15:Sum:" type="Int64" />
+            <Field name="2021_07_16" source="CrossTab:Header:Date:2021-07-16:Sum:" type="Int64" />
+            <Field name="2021_07_17" source="CrossTab:Header:Date:2021-07-17:Sum:" type="Int64" />
+            <Field name="2021_07_18" source="CrossTab:Header:Date:2021-07-18:Sum:" type="Int64" />
+            <Field name="2021_07_19" source="CrossTab:Header:Date:2021-07-19:Sum:" type="Int64" />
+            <Field name="2021_07_20" source="CrossTab:Header:Date:2021-07-20:Sum:" type="Int64" />
+            <Field name="2021_07_21" source="CrossTab:Header:Date:2021-07-21:Sum:" type="Int64" />
+            <Field name="2021_07_22" source="CrossTab:Header:Date:2021-07-22:Sum:" type="Int64" />
+            <Field name="2021_07_23" source="CrossTab:Header:Date:2021-07-23:Sum:" type="Int64" />
+            <Field name="2021_07_24" source="CrossTab:Header:Date:2021-07-24:Sum:" type="Int64" />
+            <Field name="2021_07_25" source="CrossTab:Header:Date:2021-07-25:Sum:" type="Int64" />
+            <Field name="2021_07_26" source="CrossTab:Header:Date:2021-07-26:Sum:" type="Int64" />
+            <Field name="2021_07_27" source="CrossTab:Header:Date:2021-07-27:Sum:" type="Int64" />
+            <Field name="2021_07_28" source="CrossTab:Header:Date:2021-07-28:Sum:" type="Int64" />
+            <Field name="2021_07_29" source="CrossTab:Header:Date:2021-07-29:Sum:" type="Int64" />
+            <Field name="2021_07_30" source="CrossTab:Header:Date:2021-07-30:Sum:" type="Int64" />
+            <Field name="2021_07_31" source="CrossTab:Header:Date:2021-07-31:Sum:" type="Int64" />
+            <Field name="2021_08_01" source="CrossTab:Header:Date:2021-08-01:Sum:" type="Int64" />
+            <Field name="2021_08_02" source="CrossTab:Header:Date:2021-08-02:Sum:" type="Int64" />
+            <Field name="2021_08_03" source="CrossTab:Header:Date:2021-08-03:Sum:" type="Int64" />
+            <Field name="2021_08_04" source="CrossTab:Header:Date:2021-08-04:Sum:" type="Int64" />
+            <Field name="2021_08_05" source="CrossTab:Header:Date:2021-08-05:Sum:" type="Int64" />
+            <Field name="2021_08_06" source="CrossTab:Header:Date:2021-08-06:Sum:" type="Int64" />
+            <Field name="2021_08_07" source="CrossTab:Header:Date:2021-08-07:Sum:" type="Int64" />
+            <Field name="2021_08_08" source="CrossTab:Header:Date:2021-08-08:Sum:" type="Int64" />
+            <Field name="2021_08_09" source="CrossTab:Header:Date:2021-08-09:Sum:" type="Int64" />
+            <Field name="2021_08_10" source="CrossTab:Header:Date:2021-08-10:Sum:" type="Int64" />
+            <Field name="2021_08_11" source="CrossTab:Header:Date:2021-08-11:Sum:" type="Int64" />
+            <Field name="2021_08_12" source="CrossTab:Header:Date:2021-08-12:Sum:" type="Int64" />
+            <Field name="2021_08_13" source="CrossTab:Header:Date:2021-08-13:Sum:" type="Int64" />
+            <Field name="2021_08_14" source="CrossTab:Header:Date:2021-08-14:Sum:" type="Int64" />
+            <Field name="2021_08_15" source="CrossTab:Header:Date:2021-08-15:Sum:" type="Int64" />
+            <Field name="2021_08_16" source="CrossTab:Header:Date:2021-08-16:Sum:" type="Int64" />
+            <Field name="2021_08_17" source="CrossTab:Header:Date:2021-08-17:Sum:" type="Int64" />
+            <Field name="2021_08_18" source="CrossTab:Header:Date:2021-08-18:Sum:" type="Int64" />
+            <Field name="2021_08_19" source="CrossTab:Header:Date:2021-08-19:Sum:" type="Int64" />
+            <Field name="2021_08_20" source="CrossTab:Header:Date:2021-08-20:Sum:" type="Int64" />
+            <Field name="2021_08_21" source="CrossTab:Header:Date:2021-08-21:Sum:" type="Int64" />
+            <Field name="2021_08_22" source="CrossTab:Header:Date:2021-08-22:Sum:" type="Int64" />
+            <Field name="2021_08_23" source="CrossTab:Header:Date:2021-08-23:Sum:" type="Int64" />
+            <Field name="2021_08_24" source="CrossTab:Header:Date:2021-08-24:Sum:" type="Int64" />
+            <Field name="2021_08_25" source="CrossTab:Header:Date:2021-08-25:Sum:" type="Int64" />
+            <Field name="2021_08_26" source="CrossTab:Header:Date:2021-08-26:Sum:" type="Int64" />
+            <Field name="2021_08_27" source="CrossTab:Header:Date:2021-08-27:Sum:" type="Int64" />
+            <Field name="2021_08_28" source="CrossTab:Header:Date:2021-08-28:Sum:" type="Int64" />
+            <Field name="2021_08_29" source="CrossTab:Header:Date:2021-08-29:Sum:" type="Int64" />
+            <Field name="2021_08_30" source="CrossTab:Header:Date:2021-08-30:Sum:" type="Int64" />
+            <Field name="2021_08_31" source="CrossTab:Header:Date:2021-08-31:Sum:" type="Int64" />
+            <Field name="2021_09_01" source="CrossTab:Header:Date:2021-09-01:Sum:" type="Int64" />
+            <Field name="2021_09_02" source="CrossTab:Header:Date:2021-09-02:Sum:" type="Int64" />
+            <Field name="2021_09_03" source="CrossTab:Header:Date:2021-09-03:Sum:" type="Int64" />
+            <Field name="2021_09_04" source="CrossTab:Header:Date:2021-09-04:Sum:" type="Int64" />
+            <Field name="2021_09_05" source="CrossTab:Header:Date:2021-09-05:Sum:" type="Int64" />
+            <Field name="2021_09_06" source="CrossTab:Header:Date:2021-09-06:Sum:" type="Int64" />
+            <Field name="2021_09_07" source="CrossTab:Header:Date:2021-09-07:Sum:" type="Int64" />
+            <Field name="2021_09_08" source="CrossTab:Header:Date:2021-09-08:Sum:" type="Int64" />
+            <Field name="2021_09_09" source="CrossTab:Header:Date:2021-09-09:Sum:" type="Int64" />
+            <Field name="2021_09_10" source="CrossTab:Header:Date:2021-09-10:Sum:" type="Int64" />
+            <Field name="2021_09_11" source="CrossTab:Header:Date:2021-09-11:Sum:" type="Int64" />
+            <Field name="2021_09_12" source="CrossTab:Header:Date:2021-09-12:Sum:" type="Int64" />
+            <Field name="2021_09_13" source="CrossTab:Header:Date:2021-09-13:Sum:" type="Int64" />
+            <Field name="2021_09_14" source="CrossTab:Header:Date:2021-09-14:Sum:" type="Int64" />
+            <Field name="2021_09_15" source="CrossTab:Header:Date:2021-09-15:Sum:" type="Int64" />
+            <Field name="2021_09_16" source="CrossTab:Header:Date:2021-09-16:Sum:" type="Int64" />
+            <Field name="2021_09_17" source="CrossTab:Header:Date:2021-09-17:Sum:" type="Int64" />
+            <Field name="2021_09_18" source="CrossTab:Header:Date:2021-09-18:Sum:" type="Int64" />
+            <Field name="2021_09_19" source="CrossTab:Header:Date:2021-09-19:Sum:" type="Int64" />
+            <Field name="2021_09_20" source="CrossTab:Header:Date:2021-09-20:Sum:" type="Int64" />
+            <Field name="2021_09_21" source="CrossTab:Header:Date:2021-09-21:Sum:" type="Int64" />
+            <Field name="2021_09_22" source="CrossTab:Header:Date:2021-09-22:Sum:" type="Int64" />
+            <Field name="2021_09_23" source="CrossTab:Header:Date:2021-09-23:Sum:" type="Int64" />
+            <Field name="2021_09_24" source="CrossTab:Header:Date:2021-09-24:Sum:" type="Int64" />
+            <Field name="2021_09_25" source="CrossTab:Header:Date:2021-09-25:Sum:" type="Int64" />
+            <Field name="2021_09_26" source="CrossTab:Header:Date:2021-09-26:Sum:" type="Int64" />
+            <Field name="2021_09_27" source="CrossTab:Header:Date:2021-09-27:Sum:" type="Int64" />
+            <Field name="2021_09_28" source="CrossTab:Header:Date:2021-09-28:Sum:" type="Int64" />
+            <Field name="2021_09_29" source="CrossTab:Header:Date:2021-09-29:Sum:" type="Int64" />
+            <Field name="2021_09_30" source="CrossTab:Header:Date:2021-09-30:Sum:" type="Int64" />
+            <Field name="2021_10_01" source="CrossTab:Header:Date:2021-10-01:Sum:" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Truck ID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="82">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="1314" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="2021_01_11" />
+            <Field name="2021_01_12" />
+            <Field name="2021_01_13" />
+            <Field name="2021_01_14" />
+            <Field name="2021_01_15" />
+            <Field name="2021_01_16" />
+            <Field name="2021_01_17" />
+            <Field name="2021_01_18" />
+            <Field name="2021_01_19" />
+            <Field name="2021_01_20" />
+            <Field name="2021_01_21" />
+            <Field name="2021_01_22" />
+            <Field name="2021_01_23" />
+            <Field name="2021_01_24" />
+            <Field name="2021_01_25" />
+            <Field name="2021_01_26" />
+            <Field name="2021_01_27" />
+            <Field name="2021_01_28" />
+            <Field name="2021_01_29" />
+            <Field name="2021_01_30" />
+            <Field name="2021_01_31" />
+            <Field name="2021_02_01" />
+            <Field name="2021_02_02" />
+            <Field name="2021_02_03" />
+            <Field name="2021_02_04" />
+            <Field name="2021_02_05" />
+            <Field name="2021_02_06" />
+            <Field name="2021_02_07" />
+            <Field name="2021_02_08" />
+            <Field name="2021_02_09" />
+            <Field name="2021_02_10" />
+            <Field name="2021_02_11" />
+            <Field name="2021_02_12" />
+            <Field name="2021_02_13" />
+            <Field name="2021_02_14" />
+            <Field name="2021_02_15" />
+            <Field name="2021_02_16" />
+            <Field name="2021_02_17" />
+            <Field name="2021_02_18" />
+            <Field name="2021_02_19" />
+            <Field name="2021_02_20" />
+            <Field name="2021_02_21" />
+            <Field name="2021_02_22" />
+            <Field name="2021_02_23" />
+            <Field name="2021_02_24" />
+            <Field name="2021_02_25" />
+            <Field name="2021_02_26" />
+            <Field name="2021_02_27" />
+            <Field name="2021_02_28" />
+            <Field name="2021_03_01" />
+            <Field name="2021_03_02" />
+            <Field name="2021_03_03" />
+            <Field name="2021_03_04" />
+            <Field name="2021_03_05" />
+            <Field name="2021_03_06" />
+            <Field name="2021_03_07" />
+            <Field name="2021_03_08" />
+            <Field name="2021_03_09" />
+            <Field name="2021_03_10" />
+            <Field name="2021_03_11" />
+            <Field name="2021_03_12" />
+            <Field name="2021_03_13" />
+            <Field name="2021_03_14" />
+            <Field name="2021_03_15" />
+            <Field name="2021_03_16" />
+            <Field name="2021_03_17" />
+            <Field name="2021_03_18" />
+            <Field name="2021_03_19" />
+            <Field name="2021_03_20" />
+            <Field name="2021_03_21" />
+            <Field name="2021_03_22" />
+            <Field name="2021_03_23" />
+            <Field name="2021_03_24" />
+            <Field name="2021_03_25" />
+            <Field name="2021_03_26" />
+            <Field name="2021_03_27" />
+            <Field name="2021_03_28" />
+            <Field name="2021_03_29" />
+            <Field name="2021_03_30" />
+            <Field name="2021_03_31" />
+            <Field name="2021_04_01" />
+            <Field name="2021_04_02" />
+            <Field name="2021_04_03" />
+            <Field name="2021_04_04" />
+            <Field name="2021_04_05" />
+            <Field name="2021_04_06" />
+            <Field name="2021_04_07" />
+            <Field name="2021_04_08" />
+            <Field name="2021_04_09" />
+            <Field name="2021_04_10" />
+            <Field name="2021_04_11" />
+            <Field name="2021_04_12" />
+            <Field name="2021_04_13" />
+            <Field name="2021_04_14" />
+            <Field name="2021_04_15" />
+            <Field name="2021_04_16" />
+            <Field name="2021_04_17" />
+            <Field name="2021_04_18" />
+            <Field name="2021_04_19" />
+            <Field name="2021_04_20" />
+            <Field name="2021_04_21" />
+            <Field name="2021_04_22" />
+            <Field name="2021_04_23" />
+            <Field name="2021_04_24" />
+            <Field name="2021_04_25" />
+            <Field name="2021_04_26" />
+            <Field name="2021_04_27" />
+            <Field name="2021_04_28" />
+            <Field name="2021_04_29" />
+            <Field name="2021_04_30" />
+            <Field name="2021_05_01" />
+            <Field name="2021_05_02" />
+            <Field name="2021_05_03" />
+            <Field name="2021_05_04" />
+            <Field name="2021_05_05" />
+            <Field name="2021_05_06" />
+            <Field name="2021_05_07" />
+            <Field name="2021_05_08" />
+            <Field name="2021_05_09" />
+            <Field name="2021_05_10" />
+            <Field name="2021_05_11" />
+            <Field name="2021_05_12" />
+            <Field name="2021_05_13" />
+            <Field name="2021_05_14" />
+            <Field name="2021_05_15" />
+            <Field name="2021_05_16" />
+            <Field name="2021_05_17" />
+            <Field name="2021_05_18" />
+            <Field name="2021_05_19" />
+            <Field name="2021_05_20" />
+            <Field name="2021_05_21" />
+            <Field name="2021_05_22" />
+            <Field name="2021_05_23" />
+            <Field name="2021_05_24" />
+            <Field name="2021_05_25" />
+            <Field name="2021_05_26" />
+            <Field name="2021_05_27" />
+            <Field name="2021_05_28" />
+            <Field name="2021_05_29" />
+            <Field name="2021_05_30" />
+            <Field name="2021_05_31" />
+            <Field name="2021_06_01" />
+            <Field name="2021_06_02" />
+            <Field name="2021_06_03" />
+            <Field name="2021_06_04" />
+            <Field name="2021_06_05" />
+            <Field name="2021_06_06" />
+            <Field name="2021_06_07" />
+            <Field name="2021_06_08" />
+            <Field name="2021_06_09" />
+            <Field name="2021_06_10" />
+            <Field name="2021_06_11" />
+            <Field name="2021_06_12" />
+            <Field name="2021_06_13" />
+            <Field name="2021_06_14" />
+            <Field name="2021_06_15" />
+            <Field name="2021_06_16" />
+            <Field name="2021_06_17" />
+            <Field name="2021_06_18" />
+            <Field name="2021_06_19" />
+            <Field name="2021_06_20" />
+            <Field name="2021_06_21" />
+            <Field name="2021_06_22" />
+            <Field name="2021_06_23" />
+            <Field name="2021_06_24" />
+            <Field name="2021_06_25" />
+            <Field name="2021_06_26" />
+            <Field name="2021_06_27" />
+            <Field name="2021_06_28" />
+            <Field name="2021_06_29" />
+            <Field name="2021_06_30" />
+            <Field name="2021_07_01" />
+            <Field name="2021_07_02" />
+            <Field name="2021_07_03" />
+            <Field name="2021_07_04" />
+            <Field name="2021_07_05" />
+            <Field name="2021_07_06" />
+            <Field name="2021_07_07" />
+            <Field name="2021_07_08" />
+            <Field name="2021_07_09" />
+            <Field name="2021_07_10" />
+            <Field name="2021_07_11" />
+            <Field name="2021_07_12" />
+            <Field name="2021_07_13" />
+            <Field name="2021_07_14" />
+            <Field name="2021_07_15" />
+            <Field name="2021_07_16" />
+            <Field name="2021_07_17" />
+            <Field name="2021_07_18" />
+            <Field name="2021_07_19" />
+            <Field name="2021_07_20" />
+            <Field name="2021_07_21" />
+            <Field name="2021_07_22" />
+            <Field name="2021_07_23" />
+            <Field name="2021_07_24" />
+            <Field name="2021_07_25" />
+            <Field name="2021_07_26" />
+            <Field name="2021_07_27" />
+            <Field name="2021_07_28" />
+            <Field name="2021_07_29" />
+            <Field name="2021_07_30" />
+            <Field name="2021_07_31" />
+            <Field name="2021_08_01" />
+            <Field name="2021_08_02" />
+            <Field name="2021_08_03" />
+            <Field name="2021_08_04" />
+            <Field name="2021_08_05" />
+            <Field name="2021_08_06" />
+            <Field name="2021_08_07" />
+            <Field name="2021_08_08" />
+            <Field name="2021_08_09" />
+            <Field name="2021_08_10" />
+            <Field name="2021_08_11" />
+            <Field name="2021_08_12" />
+            <Field name="2021_08_13" />
+            <Field name="2021_08_14" />
+            <Field name="2021_08_15" />
+            <Field name="2021_08_16" />
+            <Field name="2021_08_17" />
+            <Field name="2021_08_18" />
+            <Field name="2021_08_19" />
+            <Field name="2021_08_20" />
+            <Field name="2021_08_21" />
+            <Field name="2021_08_22" />
+            <Field name="2021_08_23" />
+            <Field name="2021_08_24" />
+            <Field name="2021_08_25" />
+            <Field name="2021_08_26" />
+            <Field name="2021_08_27" />
+            <Field name="2021_08_28" />
+            <Field name="2021_08_29" />
+            <Field name="2021_08_30" />
+            <Field name="2021_08_31" />
+            <Field name="2021_09_01" />
+            <Field name="2021_09_02" />
+            <Field name="2021_09_03" />
+            <Field name="2021_09_04" />
+            <Field name="2021_09_05" />
+            <Field name="2021_09_06" />
+            <Field name="2021_09_07" />
+            <Field name="2021_09_08" />
+            <Field name="2021_09_09" />
+            <Field name="2021_09_10" />
+            <Field name="2021_09_11" />
+            <Field name="2021_09_12" />
+            <Field name="2021_09_13" />
+            <Field name="2021_09_14" />
+            <Field name="2021_09_15" />
+            <Field name="2021_09_16" />
+            <Field name="2021_09_17" />
+            <Field name="2021_09_18" />
+            <Field name="2021_09_19" />
+            <Field name="2021_09_20" />
+            <Field name="2021_09_21" />
+            <Field name="2021_09_22" />
+            <Field name="2021_09_23" />
+            <Field name="2021_09_24" />
+            <Field name="2021_09_25" />
+            <Field name="2021_09_26" />
+            <Field name="2021_09_27" />
+            <Field name="2021_09_28" />
+            <Field name="2021_09_29" />
+            <Field name="2021_09_30" />
+            <Field name="2021_10_01" />
+            <Field name="*Unknown" />
+            <Field name="Truck ID" selected="False" />
+          </Fields>
+          <Expression>Replace([_CurrentField_], '_', '-')</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Rename Columns</AnnotationText>
+          <DefaultAnnotationText>Rename Columns</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Truck ID" source="CrossTab:Group:Sum:" type="Int16" />
+            <Field name="2021-01-11" source="CrossTab:Header:Date:2021-01-11:Sum:" type="Int64" />
+            <Field name="2021-01-12" source="CrossTab:Header:Date:2021-01-12:Sum:" type="Int64" />
+            <Field name="2021-01-13" source="CrossTab:Header:Date:2021-01-13:Sum:" type="Int64" />
+            <Field name="2021-01-14" source="CrossTab:Header:Date:2021-01-14:Sum:" type="Int64" />
+            <Field name="2021-01-15" source="CrossTab:Header:Date:2021-01-15:Sum:" type="Int64" />
+            <Field name="2021-01-16" source="CrossTab:Header:Date:2021-01-16:Sum:" type="Int64" />
+            <Field name="2021-01-17" source="CrossTab:Header:Date:2021-01-17:Sum:" type="Int64" />
+            <Field name="2021-01-18" source="CrossTab:Header:Date:2021-01-18:Sum:" type="Int64" />
+            <Field name="2021-01-19" source="CrossTab:Header:Date:2021-01-19:Sum:" type="Int64" />
+            <Field name="2021-01-20" source="CrossTab:Header:Date:2021-01-20:Sum:" type="Int64" />
+            <Field name="2021-01-21" source="CrossTab:Header:Date:2021-01-21:Sum:" type="Int64" />
+            <Field name="2021-01-22" source="CrossTab:Header:Date:2021-01-22:Sum:" type="Int64" />
+            <Field name="2021-01-23" source="CrossTab:Header:Date:2021-01-23:Sum:" type="Int64" />
+            <Field name="2021-01-24" source="CrossTab:Header:Date:2021-01-24:Sum:" type="Int64" />
+            <Field name="2021-01-25" source="CrossTab:Header:Date:2021-01-25:Sum:" type="Int64" />
+            <Field name="2021-01-26" source="CrossTab:Header:Date:2021-01-26:Sum:" type="Int64" />
+            <Field name="2021-01-27" source="CrossTab:Header:Date:2021-01-27:Sum:" type="Int64" />
+            <Field name="2021-01-28" source="CrossTab:Header:Date:2021-01-28:Sum:" type="Int64" />
+            <Field name="2021-01-29" source="CrossTab:Header:Date:2021-01-29:Sum:" type="Int64" />
+            <Field name="2021-01-30" source="CrossTab:Header:Date:2021-01-30:Sum:" type="Int64" />
+            <Field name="2021-01-31" source="CrossTab:Header:Date:2021-01-31:Sum:" type="Int64" />
+            <Field name="2021-02-01" source="CrossTab:Header:Date:2021-02-01:Sum:" type="Int64" />
+            <Field name="2021-02-02" source="CrossTab:Header:Date:2021-02-02:Sum:" type="Int64" />
+            <Field name="2021-02-03" source="CrossTab:Header:Date:2021-02-03:Sum:" type="Int64" />
+            <Field name="2021-02-04" source="CrossTab:Header:Date:2021-02-04:Sum:" type="Int64" />
+            <Field name="2021-02-05" source="CrossTab:Header:Date:2021-02-05:Sum:" type="Int64" />
+            <Field name="2021-02-06" source="CrossTab:Header:Date:2021-02-06:Sum:" type="Int64" />
+            <Field name="2021-02-07" source="CrossTab:Header:Date:2021-02-07:Sum:" type="Int64" />
+            <Field name="2021-02-08" source="CrossTab:Header:Date:2021-02-08:Sum:" type="Int64" />
+            <Field name="2021-02-09" source="CrossTab:Header:Date:2021-02-09:Sum:" type="Int64" />
+            <Field name="2021-02-10" source="CrossTab:Header:Date:2021-02-10:Sum:" type="Int64" />
+            <Field name="2021-02-11" source="CrossTab:Header:Date:2021-02-11:Sum:" type="Int64" />
+            <Field name="2021-02-12" source="CrossTab:Header:Date:2021-02-12:Sum:" type="Int64" />
+            <Field name="2021-02-13" source="CrossTab:Header:Date:2021-02-13:Sum:" type="Int64" />
+            <Field name="2021-02-14" source="CrossTab:Header:Date:2021-02-14:Sum:" type="Int64" />
+            <Field name="2021-02-15" source="CrossTab:Header:Date:2021-02-15:Sum:" type="Int64" />
+            <Field name="2021-02-16" source="CrossTab:Header:Date:2021-02-16:Sum:" type="Int64" />
+            <Field name="2021-02-17" source="CrossTab:Header:Date:2021-02-17:Sum:" type="Int64" />
+            <Field name="2021-02-18" source="CrossTab:Header:Date:2021-02-18:Sum:" type="Int64" />
+            <Field name="2021-02-19" source="CrossTab:Header:Date:2021-02-19:Sum:" type="Int64" />
+            <Field name="2021-02-20" source="CrossTab:Header:Date:2021-02-20:Sum:" type="Int64" />
+            <Field name="2021-02-21" source="CrossTab:Header:Date:2021-02-21:Sum:" type="Int64" />
+            <Field name="2021-02-22" source="CrossTab:Header:Date:2021-02-22:Sum:" type="Int64" />
+            <Field name="2021-02-23" source="CrossTab:Header:Date:2021-02-23:Sum:" type="Int64" />
+            <Field name="2021-02-24" source="CrossTab:Header:Date:2021-02-24:Sum:" type="Int64" />
+            <Field name="2021-02-25" source="CrossTab:Header:Date:2021-02-25:Sum:" type="Int64" />
+            <Field name="2021-02-26" source="CrossTab:Header:Date:2021-02-26:Sum:" type="Int64" />
+            <Field name="2021-02-27" source="CrossTab:Header:Date:2021-02-27:Sum:" type="Int64" />
+            <Field name="2021-02-28" source="CrossTab:Header:Date:2021-02-28:Sum:" type="Int64" />
+            <Field name="2021-03-01" source="CrossTab:Header:Date:2021-03-01:Sum:" type="Int64" />
+            <Field name="2021-03-02" source="CrossTab:Header:Date:2021-03-02:Sum:" type="Int64" />
+            <Field name="2021-03-03" source="CrossTab:Header:Date:2021-03-03:Sum:" type="Int64" />
+            <Field name="2021-03-04" source="CrossTab:Header:Date:2021-03-04:Sum:" type="Int64" />
+            <Field name="2021-03-05" source="CrossTab:Header:Date:2021-03-05:Sum:" type="Int64" />
+            <Field name="2021-03-06" source="CrossTab:Header:Date:2021-03-06:Sum:" type="Int64" />
+            <Field name="2021-03-07" source="CrossTab:Header:Date:2021-03-07:Sum:" type="Int64" />
+            <Field name="2021-03-08" source="CrossTab:Header:Date:2021-03-08:Sum:" type="Int64" />
+            <Field name="2021-03-09" source="CrossTab:Header:Date:2021-03-09:Sum:" type="Int64" />
+            <Field name="2021-03-10" source="CrossTab:Header:Date:2021-03-10:Sum:" type="Int64" />
+            <Field name="2021-03-11" source="CrossTab:Header:Date:2021-03-11:Sum:" type="Int64" />
+            <Field name="2021-03-12" source="CrossTab:Header:Date:2021-03-12:Sum:" type="Int64" />
+            <Field name="2021-03-13" source="CrossTab:Header:Date:2021-03-13:Sum:" type="Int64" />
+            <Field name="2021-03-14" source="CrossTab:Header:Date:2021-03-14:Sum:" type="Int64" />
+            <Field name="2021-03-15" source="CrossTab:Header:Date:2021-03-15:Sum:" type="Int64" />
+            <Field name="2021-03-16" source="CrossTab:Header:Date:2021-03-16:Sum:" type="Int64" />
+            <Field name="2021-03-17" source="CrossTab:Header:Date:2021-03-17:Sum:" type="Int64" />
+            <Field name="2021-03-18" source="CrossTab:Header:Date:2021-03-18:Sum:" type="Int64" />
+            <Field name="2021-03-19" source="CrossTab:Header:Date:2021-03-19:Sum:" type="Int64" />
+            <Field name="2021-03-20" source="CrossTab:Header:Date:2021-03-20:Sum:" type="Int64" />
+            <Field name="2021-03-21" source="CrossTab:Header:Date:2021-03-21:Sum:" type="Int64" />
+            <Field name="2021-03-22" source="CrossTab:Header:Date:2021-03-22:Sum:" type="Int64" />
+            <Field name="2021-03-23" source="CrossTab:Header:Date:2021-03-23:Sum:" type="Int64" />
+            <Field name="2021-03-24" source="CrossTab:Header:Date:2021-03-24:Sum:" type="Int64" />
+            <Field name="2021-03-25" source="CrossTab:Header:Date:2021-03-25:Sum:" type="Int64" />
+            <Field name="2021-03-26" source="CrossTab:Header:Date:2021-03-26:Sum:" type="Int64" />
+            <Field name="2021-03-27" source="CrossTab:Header:Date:2021-03-27:Sum:" type="Int64" />
+            <Field name="2021-03-28" source="CrossTab:Header:Date:2021-03-28:Sum:" type="Int64" />
+            <Field name="2021-03-29" source="CrossTab:Header:Date:2021-03-29:Sum:" type="Int64" />
+            <Field name="2021-03-30" source="CrossTab:Header:Date:2021-03-30:Sum:" type="Int64" />
+            <Field name="2021-03-31" source="CrossTab:Header:Date:2021-03-31:Sum:" type="Int64" />
+            <Field name="2021-04-01" source="CrossTab:Header:Date:2021-04-01:Sum:" type="Int64" />
+            <Field name="2021-04-02" source="CrossTab:Header:Date:2021-04-02:Sum:" type="Int64" />
+            <Field name="2021-04-03" source="CrossTab:Header:Date:2021-04-03:Sum:" type="Int64" />
+            <Field name="2021-04-04" source="CrossTab:Header:Date:2021-04-04:Sum:" type="Int64" />
+            <Field name="2021-04-05" source="CrossTab:Header:Date:2021-04-05:Sum:" type="Int64" />
+            <Field name="2021-04-06" source="CrossTab:Header:Date:2021-04-06:Sum:" type="Int64" />
+            <Field name="2021-04-07" source="CrossTab:Header:Date:2021-04-07:Sum:" type="Int64" />
+            <Field name="2021-04-08" source="CrossTab:Header:Date:2021-04-08:Sum:" type="Int64" />
+            <Field name="2021-04-09" source="CrossTab:Header:Date:2021-04-09:Sum:" type="Int64" />
+            <Field name="2021-04-10" source="CrossTab:Header:Date:2021-04-10:Sum:" type="Int64" />
+            <Field name="2021-04-11" source="CrossTab:Header:Date:2021-04-11:Sum:" type="Int64" />
+            <Field name="2021-04-12" source="CrossTab:Header:Date:2021-04-12:Sum:" type="Int64" />
+            <Field name="2021-04-13" source="CrossTab:Header:Date:2021-04-13:Sum:" type="Int64" />
+            <Field name="2021-04-14" source="CrossTab:Header:Date:2021-04-14:Sum:" type="Int64" />
+            <Field name="2021-04-15" source="CrossTab:Header:Date:2021-04-15:Sum:" type="Int64" />
+            <Field name="2021-04-16" source="CrossTab:Header:Date:2021-04-16:Sum:" type="Int64" />
+            <Field name="2021-04-17" source="CrossTab:Header:Date:2021-04-17:Sum:" type="Int64" />
+            <Field name="2021-04-18" source="CrossTab:Header:Date:2021-04-18:Sum:" type="Int64" />
+            <Field name="2021-04-19" source="CrossTab:Header:Date:2021-04-19:Sum:" type="Int64" />
+            <Field name="2021-04-20" source="CrossTab:Header:Date:2021-04-20:Sum:" type="Int64" />
+            <Field name="2021-04-21" source="CrossTab:Header:Date:2021-04-21:Sum:" type="Int64" />
+            <Field name="2021-04-22" source="CrossTab:Header:Date:2021-04-22:Sum:" type="Int64" />
+            <Field name="2021-04-23" source="CrossTab:Header:Date:2021-04-23:Sum:" type="Int64" />
+            <Field name="2021-04-24" source="CrossTab:Header:Date:2021-04-24:Sum:" type="Int64" />
+            <Field name="2021-04-25" source="CrossTab:Header:Date:2021-04-25:Sum:" type="Int64" />
+            <Field name="2021-04-26" source="CrossTab:Header:Date:2021-04-26:Sum:" type="Int64" />
+            <Field name="2021-04-27" source="CrossTab:Header:Date:2021-04-27:Sum:" type="Int64" />
+            <Field name="2021-04-28" source="CrossTab:Header:Date:2021-04-28:Sum:" type="Int64" />
+            <Field name="2021-04-29" source="CrossTab:Header:Date:2021-04-29:Sum:" type="Int64" />
+            <Field name="2021-04-30" source="CrossTab:Header:Date:2021-04-30:Sum:" type="Int64" />
+            <Field name="2021-05-01" source="CrossTab:Header:Date:2021-05-01:Sum:" type="Int64" />
+            <Field name="2021-05-02" source="CrossTab:Header:Date:2021-05-02:Sum:" type="Int64" />
+            <Field name="2021-05-03" source="CrossTab:Header:Date:2021-05-03:Sum:" type="Int64" />
+            <Field name="2021-05-04" source="CrossTab:Header:Date:2021-05-04:Sum:" type="Int64" />
+            <Field name="2021-05-05" source="CrossTab:Header:Date:2021-05-05:Sum:" type="Int64" />
+            <Field name="2021-05-06" source="CrossTab:Header:Date:2021-05-06:Sum:" type="Int64" />
+            <Field name="2021-05-07" source="CrossTab:Header:Date:2021-05-07:Sum:" type="Int64" />
+            <Field name="2021-05-08" source="CrossTab:Header:Date:2021-05-08:Sum:" type="Int64" />
+            <Field name="2021-05-09" source="CrossTab:Header:Date:2021-05-09:Sum:" type="Int64" />
+            <Field name="2021-05-10" source="CrossTab:Header:Date:2021-05-10:Sum:" type="Int64" />
+            <Field name="2021-05-11" source="CrossTab:Header:Date:2021-05-11:Sum:" type="Int64" />
+            <Field name="2021-05-12" source="CrossTab:Header:Date:2021-05-12:Sum:" type="Int64" />
+            <Field name="2021-05-13" source="CrossTab:Header:Date:2021-05-13:Sum:" type="Int64" />
+            <Field name="2021-05-14" source="CrossTab:Header:Date:2021-05-14:Sum:" type="Int64" />
+            <Field name="2021-05-15" source="CrossTab:Header:Date:2021-05-15:Sum:" type="Int64" />
+            <Field name="2021-05-16" source="CrossTab:Header:Date:2021-05-16:Sum:" type="Int64" />
+            <Field name="2021-05-17" source="CrossTab:Header:Date:2021-05-17:Sum:" type="Int64" />
+            <Field name="2021-05-18" source="CrossTab:Header:Date:2021-05-18:Sum:" type="Int64" />
+            <Field name="2021-05-19" source="CrossTab:Header:Date:2021-05-19:Sum:" type="Int64" />
+            <Field name="2021-05-20" source="CrossTab:Header:Date:2021-05-20:Sum:" type="Int64" />
+            <Field name="2021-05-21" source="CrossTab:Header:Date:2021-05-21:Sum:" type="Int64" />
+            <Field name="2021-05-22" source="CrossTab:Header:Date:2021-05-22:Sum:" type="Int64" />
+            <Field name="2021-05-23" source="CrossTab:Header:Date:2021-05-23:Sum:" type="Int64" />
+            <Field name="2021-05-24" source="CrossTab:Header:Date:2021-05-24:Sum:" type="Int64" />
+            <Field name="2021-05-25" source="CrossTab:Header:Date:2021-05-25:Sum:" type="Int64" />
+            <Field name="2021-05-26" source="CrossTab:Header:Date:2021-05-26:Sum:" type="Int64" />
+            <Field name="2021-05-27" source="CrossTab:Header:Date:2021-05-27:Sum:" type="Int64" />
+            <Field name="2021-05-28" source="CrossTab:Header:Date:2021-05-28:Sum:" type="Int64" />
+            <Field name="2021-05-29" source="CrossTab:Header:Date:2021-05-29:Sum:" type="Int64" />
+            <Field name="2021-05-30" source="CrossTab:Header:Date:2021-05-30:Sum:" type="Int64" />
+            <Field name="2021-05-31" source="CrossTab:Header:Date:2021-05-31:Sum:" type="Int64" />
+            <Field name="2021-06-01" source="CrossTab:Header:Date:2021-06-01:Sum:" type="Int64" />
+            <Field name="2021-06-02" source="CrossTab:Header:Date:2021-06-02:Sum:" type="Int64" />
+            <Field name="2021-06-03" source="CrossTab:Header:Date:2021-06-03:Sum:" type="Int64" />
+            <Field name="2021-06-04" source="CrossTab:Header:Date:2021-06-04:Sum:" type="Int64" />
+            <Field name="2021-06-05" source="CrossTab:Header:Date:2021-06-05:Sum:" type="Int64" />
+            <Field name="2021-06-06" source="CrossTab:Header:Date:2021-06-06:Sum:" type="Int64" />
+            <Field name="2021-06-07" source="CrossTab:Header:Date:2021-06-07:Sum:" type="Int64" />
+            <Field name="2021-06-08" source="CrossTab:Header:Date:2021-06-08:Sum:" type="Int64" />
+            <Field name="2021-06-09" source="CrossTab:Header:Date:2021-06-09:Sum:" type="Int64" />
+            <Field name="2021-06-10" source="CrossTab:Header:Date:2021-06-10:Sum:" type="Int64" />
+            <Field name="2021-06-11" source="CrossTab:Header:Date:2021-06-11:Sum:" type="Int64" />
+            <Field name="2021-06-12" source="CrossTab:Header:Date:2021-06-12:Sum:" type="Int64" />
+            <Field name="2021-06-13" source="CrossTab:Header:Date:2021-06-13:Sum:" type="Int64" />
+            <Field name="2021-06-14" source="CrossTab:Header:Date:2021-06-14:Sum:" type="Int64" />
+            <Field name="2021-06-15" source="CrossTab:Header:Date:2021-06-15:Sum:" type="Int64" />
+            <Field name="2021-06-16" source="CrossTab:Header:Date:2021-06-16:Sum:" type="Int64" />
+            <Field name="2021-06-17" source="CrossTab:Header:Date:2021-06-17:Sum:" type="Int64" />
+            <Field name="2021-06-18" source="CrossTab:Header:Date:2021-06-18:Sum:" type="Int64" />
+            <Field name="2021-06-19" source="CrossTab:Header:Date:2021-06-19:Sum:" type="Int64" />
+            <Field name="2021-06-20" source="CrossTab:Header:Date:2021-06-20:Sum:" type="Int64" />
+            <Field name="2021-06-21" source="CrossTab:Header:Date:2021-06-21:Sum:" type="Int64" />
+            <Field name="2021-06-22" source="CrossTab:Header:Date:2021-06-22:Sum:" type="Int64" />
+            <Field name="2021-06-23" source="CrossTab:Header:Date:2021-06-23:Sum:" type="Int64" />
+            <Field name="2021-06-24" source="CrossTab:Header:Date:2021-06-24:Sum:" type="Int64" />
+            <Field name="2021-06-25" source="CrossTab:Header:Date:2021-06-25:Sum:" type="Int64" />
+            <Field name="2021-06-26" source="CrossTab:Header:Date:2021-06-26:Sum:" type="Int64" />
+            <Field name="2021-06-27" source="CrossTab:Header:Date:2021-06-27:Sum:" type="Int64" />
+            <Field name="2021-06-28" source="CrossTab:Header:Date:2021-06-28:Sum:" type="Int64" />
+            <Field name="2021-06-29" source="CrossTab:Header:Date:2021-06-29:Sum:" type="Int64" />
+            <Field name="2021-06-30" source="CrossTab:Header:Date:2021-06-30:Sum:" type="Int64" />
+            <Field name="2021-07-01" source="CrossTab:Header:Date:2021-07-01:Sum:" type="Int64" />
+            <Field name="2021-07-02" source="CrossTab:Header:Date:2021-07-02:Sum:" type="Int64" />
+            <Field name="2021-07-03" source="CrossTab:Header:Date:2021-07-03:Sum:" type="Int64" />
+            <Field name="2021-07-04" source="CrossTab:Header:Date:2021-07-04:Sum:" type="Int64" />
+            <Field name="2021-07-05" source="CrossTab:Header:Date:2021-07-05:Sum:" type="Int64" />
+            <Field name="2021-07-06" source="CrossTab:Header:Date:2021-07-06:Sum:" type="Int64" />
+            <Field name="2021-07-07" source="CrossTab:Header:Date:2021-07-07:Sum:" type="Int64" />
+            <Field name="2021-07-08" source="CrossTab:Header:Date:2021-07-08:Sum:" type="Int64" />
+            <Field name="2021-07-09" source="CrossTab:Header:Date:2021-07-09:Sum:" type="Int64" />
+            <Field name="2021-07-10" source="CrossTab:Header:Date:2021-07-10:Sum:" type="Int64" />
+            <Field name="2021-07-11" source="CrossTab:Header:Date:2021-07-11:Sum:" type="Int64" />
+            <Field name="2021-07-12" source="CrossTab:Header:Date:2021-07-12:Sum:" type="Int64" />
+            <Field name="2021-07-13" source="CrossTab:Header:Date:2021-07-13:Sum:" type="Int64" />
+            <Field name="2021-07-14" source="CrossTab:Header:Date:2021-07-14:Sum:" type="Int64" />
+            <Field name="2021-07-15" source="CrossTab:Header:Date:2021-07-15:Sum:" type="Int64" />
+            <Field name="2021-07-16" source="CrossTab:Header:Date:2021-07-16:Sum:" type="Int64" />
+            <Field name="2021-07-17" source="CrossTab:Header:Date:2021-07-17:Sum:" type="Int64" />
+            <Field name="2021-07-18" source="CrossTab:Header:Date:2021-07-18:Sum:" type="Int64" />
+            <Field name="2021-07-19" source="CrossTab:Header:Date:2021-07-19:Sum:" type="Int64" />
+            <Field name="2021-07-20" source="CrossTab:Header:Date:2021-07-20:Sum:" type="Int64" />
+            <Field name="2021-07-21" source="CrossTab:Header:Date:2021-07-21:Sum:" type="Int64" />
+            <Field name="2021-07-22" source="CrossTab:Header:Date:2021-07-22:Sum:" type="Int64" />
+            <Field name="2021-07-23" source="CrossTab:Header:Date:2021-07-23:Sum:" type="Int64" />
+            <Field name="2021-07-24" source="CrossTab:Header:Date:2021-07-24:Sum:" type="Int64" />
+            <Field name="2021-07-25" source="CrossTab:Header:Date:2021-07-25:Sum:" type="Int64" />
+            <Field name="2021-07-26" source="CrossTab:Header:Date:2021-07-26:Sum:" type="Int64" />
+            <Field name="2021-07-27" source="CrossTab:Header:Date:2021-07-27:Sum:" type="Int64" />
+            <Field name="2021-07-28" source="CrossTab:Header:Date:2021-07-28:Sum:" type="Int64" />
+            <Field name="2021-07-29" source="CrossTab:Header:Date:2021-07-29:Sum:" type="Int64" />
+            <Field name="2021-07-30" source="CrossTab:Header:Date:2021-07-30:Sum:" type="Int64" />
+            <Field name="2021-07-31" source="CrossTab:Header:Date:2021-07-31:Sum:" type="Int64" />
+            <Field name="2021-08-01" source="CrossTab:Header:Date:2021-08-01:Sum:" type="Int64" />
+            <Field name="2021-08-02" source="CrossTab:Header:Date:2021-08-02:Sum:" type="Int64" />
+            <Field name="2021-08-03" source="CrossTab:Header:Date:2021-08-03:Sum:" type="Int64" />
+            <Field name="2021-08-04" source="CrossTab:Header:Date:2021-08-04:Sum:" type="Int64" />
+            <Field name="2021-08-05" source="CrossTab:Header:Date:2021-08-05:Sum:" type="Int64" />
+            <Field name="2021-08-06" source="CrossTab:Header:Date:2021-08-06:Sum:" type="Int64" />
+            <Field name="2021-08-07" source="CrossTab:Header:Date:2021-08-07:Sum:" type="Int64" />
+            <Field name="2021-08-08" source="CrossTab:Header:Date:2021-08-08:Sum:" type="Int64" />
+            <Field name="2021-08-09" source="CrossTab:Header:Date:2021-08-09:Sum:" type="Int64" />
+            <Field name="2021-08-10" source="CrossTab:Header:Date:2021-08-10:Sum:" type="Int64" />
+            <Field name="2021-08-11" source="CrossTab:Header:Date:2021-08-11:Sum:" type="Int64" />
+            <Field name="2021-08-12" source="CrossTab:Header:Date:2021-08-12:Sum:" type="Int64" />
+            <Field name="2021-08-13" source="CrossTab:Header:Date:2021-08-13:Sum:" type="Int64" />
+            <Field name="2021-08-14" source="CrossTab:Header:Date:2021-08-14:Sum:" type="Int64" />
+            <Field name="2021-08-15" source="CrossTab:Header:Date:2021-08-15:Sum:" type="Int64" />
+            <Field name="2021-08-16" source="CrossTab:Header:Date:2021-08-16:Sum:" type="Int64" />
+            <Field name="2021-08-17" source="CrossTab:Header:Date:2021-08-17:Sum:" type="Int64" />
+            <Field name="2021-08-18" source="CrossTab:Header:Date:2021-08-18:Sum:" type="Int64" />
+            <Field name="2021-08-19" source="CrossTab:Header:Date:2021-08-19:Sum:" type="Int64" />
+            <Field name="2021-08-20" source="CrossTab:Header:Date:2021-08-20:Sum:" type="Int64" />
+            <Field name="2021-08-21" source="CrossTab:Header:Date:2021-08-21:Sum:" type="Int64" />
+            <Field name="2021-08-22" source="CrossTab:Header:Date:2021-08-22:Sum:" type="Int64" />
+            <Field name="2021-08-23" source="CrossTab:Header:Date:2021-08-23:Sum:" type="Int64" />
+            <Field name="2021-08-24" source="CrossTab:Header:Date:2021-08-24:Sum:" type="Int64" />
+            <Field name="2021-08-25" source="CrossTab:Header:Date:2021-08-25:Sum:" type="Int64" />
+            <Field name="2021-08-26" source="CrossTab:Header:Date:2021-08-26:Sum:" type="Int64" />
+            <Field name="2021-08-27" source="CrossTab:Header:Date:2021-08-27:Sum:" type="Int64" />
+            <Field name="2021-08-28" source="CrossTab:Header:Date:2021-08-28:Sum:" type="Int64" />
+            <Field name="2021-08-29" source="CrossTab:Header:Date:2021-08-29:Sum:" type="Int64" />
+            <Field name="2021-08-30" source="CrossTab:Header:Date:2021-08-30:Sum:" type="Int64" />
+            <Field name="2021-08-31" source="CrossTab:Header:Date:2021-08-31:Sum:" type="Int64" />
+            <Field name="2021-09-01" source="CrossTab:Header:Date:2021-09-01:Sum:" type="Int64" />
+            <Field name="2021-09-02" source="CrossTab:Header:Date:2021-09-02:Sum:" type="Int64" />
+            <Field name="2021-09-03" source="CrossTab:Header:Date:2021-09-03:Sum:" type="Int64" />
+            <Field name="2021-09-04" source="CrossTab:Header:Date:2021-09-04:Sum:" type="Int64" />
+            <Field name="2021-09-05" source="CrossTab:Header:Date:2021-09-05:Sum:" type="Int64" />
+            <Field name="2021-09-06" source="CrossTab:Header:Date:2021-09-06:Sum:" type="Int64" />
+            <Field name="2021-09-07" source="CrossTab:Header:Date:2021-09-07:Sum:" type="Int64" />
+            <Field name="2021-09-08" source="CrossTab:Header:Date:2021-09-08:Sum:" type="Int64" />
+            <Field name="2021-09-09" source="CrossTab:Header:Date:2021-09-09:Sum:" type="Int64" />
+            <Field name="2021-09-10" source="CrossTab:Header:Date:2021-09-10:Sum:" type="Int64" />
+            <Field name="2021-09-11" source="CrossTab:Header:Date:2021-09-11:Sum:" type="Int64" />
+            <Field name="2021-09-12" source="CrossTab:Header:Date:2021-09-12:Sum:" type="Int64" />
+            <Field name="2021-09-13" source="CrossTab:Header:Date:2021-09-13:Sum:" type="Int64" />
+            <Field name="2021-09-14" source="CrossTab:Header:Date:2021-09-14:Sum:" type="Int64" />
+            <Field name="2021-09-15" source="CrossTab:Header:Date:2021-09-15:Sum:" type="Int64" />
+            <Field name="2021-09-16" source="CrossTab:Header:Date:2021-09-16:Sum:" type="Int64" />
+            <Field name="2021-09-17" source="CrossTab:Header:Date:2021-09-17:Sum:" type="Int64" />
+            <Field name="2021-09-18" source="CrossTab:Header:Date:2021-09-18:Sum:" type="Int64" />
+            <Field name="2021-09-19" source="CrossTab:Header:Date:2021-09-19:Sum:" type="Int64" />
+            <Field name="2021-09-20" source="CrossTab:Header:Date:2021-09-20:Sum:" type="Int64" />
+            <Field name="2021-09-21" source="CrossTab:Header:Date:2021-09-21:Sum:" type="Int64" />
+            <Field name="2021-09-22" source="CrossTab:Header:Date:2021-09-22:Sum:" type="Int64" />
+            <Field name="2021-09-23" source="CrossTab:Header:Date:2021-09-23:Sum:" type="Int64" />
+            <Field name="2021-09-24" source="CrossTab:Header:Date:2021-09-24:Sum:" type="Int64" />
+            <Field name="2021-09-25" source="CrossTab:Header:Date:2021-09-25:Sum:" type="Int64" />
+            <Field name="2021-09-26" source="CrossTab:Header:Date:2021-09-26:Sum:" type="Int64" />
+            <Field name="2021-09-27" source="CrossTab:Header:Date:2021-09-27:Sum:" type="Int64" />
+            <Field name="2021-09-28" source="CrossTab:Header:Date:2021-09-28:Sum:" type="Int64" />
+            <Field name="2021-09-29" source="CrossTab:Header:Date:2021-09-29:Sum:" type="Int64" />
+            <Field name="2021-09-30" source="CrossTab:Header:Date:2021-09-30:Sum:" type="Int64" />
+            <Field name="2021-10-01" source="CrossTab:Header:Date:2021-10-01:Sum:" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Truck ID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="83">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1422" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\SAIVAM~1\AppData\Local\Temp\Engine_26080_e1b3170a694b470081ac13936abc4d89_\Engine_24172_f89f49313c50498694df84e4955495e4_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="152" y="1436" width="656" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#ffffff" Transparency="1" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="162" y="1470" width="636" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.”</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="70" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="70" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="77" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Output" />
+      <Destination ToolID="77" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="True" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="77" Connection="Join" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="77" Connection="Left" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="Output" />
+      <Destination ToolID="79" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output26" />
+      <Destination ToolID="80" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Output" />
+      <Destination ToolID="82" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="82" Connection="Output" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Weekly Challenge John Norton 310_svd</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="2f0b97fe-5fd3-4883-b361-7fb2ebac7dc0" />
+      <Telemetry>
+        <PreviousWorkflowId value="f08c530d-d921-4b2c-95ef-61bb28b8d123" />
+        <OriginWorkflowId value="f08c530d-d921-4b2c-95ef-61bb28b8d123" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
