@@ -1,0 +1,893 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="126" width="1212" height="564" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>For this week’s challenge, you’re taking on the role of a corporate superhero out to save the world one workflow at a time.
+
+The story: Your company, ABC Consulting, has been providing consultation hours to customers over the last year, but an end of year audit shows that many of the consultation hours have gone unfulfilled. Your goals in this challenge are to reissue a new set of coupon codes against the backlog of consulting hours from FY21, issue new coupon codes for Jan FY 22, eliminate the manual process currently used and create an automated communication that goes out to customers.
+
+Currently an employee does the below manual process in order to create coupons codes for customer consultation. She/he:
+- Pulls a report of all new orders this month and manually appends them to an Excel sheet
+- Filters so orders are in ascending order
+- Counts how many coupon codes each customer gets based on $30,000 increments
+- Duplicates customer order rows to match the count of coupon codes (so that a row count can be given to this newest batch of codes and added to the current master Excel file)
+- Then creates coupon codes with the following format (ABC + Record ID + Order Number + Row Count)
+   • Ex: ABC13100065001
+   • After this is complete the employee emails every company’s contact with their allotted coupon codes from this month’s purchases, using the following template.
+
+Email Template: (Please feel free to modify if you see value in doing so.)
+
+Dear [Company Name],
+
+Please, find below the coupon codes available to you this month for your purchase order volume:
+
+Quantity: [Total Number of Coupons]
+Codes: [Coupon Code #1, #2, #3, etc.]
+
+Criteria:
+•	Order Numbers should be filtered into ascending order
+•	For every $30,000 in dollars spent on orders the customer gets one coupon code for consultation hours
+•	Customer IDs, order numbers, and coupon codes, should be unique keys
+•	Both Data Bases provided should be used to cover the totality of backlog of coupon codes and January coupons.</Text>
+          <Font name="Microsoft Sans Serif" size="12" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1002" y="78" width="288" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #306</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="702" width="240" height="276" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1014" y="702" width="264" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Input 1.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>Input 1.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer ID" source="File: C:\Users\tcarrico\alteryx.com\GRP_Instructional Designers - Weekly Challenge\Queue\Stephanie K\FY_21_Weekly_Challenge.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Email Address" size="255" source="File: C:\Users\tcarrico\alteryx.com\GRP_Instructional Designers - Weekly Challenge\Queue\Stephanie K\FY_21_Weekly_Challenge.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Company" size="255" source="File: C:\Users\tcarrico\alteryx.com\GRP_Instructional Designers - Weekly Challenge\Queue\Stephanie K\FY_21_Weekly_Challenge.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Order Number" size="255" source="File: C:\Users\tcarrico\alteryx.com\GRP_Instructional Designers - Weekly Challenge\Queue\Stephanie K\FY_21_Weekly_Challenge.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Invoice Total" source="File: C:\Users\tcarrico\alteryx.com\GRP_Instructional Designers - Weekly Challenge\Queue\Stephanie K\FY_21_Weekly_Challenge.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="210" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\SAIVAM~1\AppData\Local\Temp\Engine_15376_dd2b907c404e4d059789eea08f76ed70_\Engine_1580_a51368edb3354bed926c8ba73f962527_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="33" />
+          <Fields>
+            <Field name="Customer ID" />
+            <Field name="Email Address" />
+            <Field name="Company" />
+            <Field name="Order Number" />
+            <Field name="Invoice Total" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1001</c>
+              <c>weeklychallenge@123abc.co.ayx</c>
+              <c>Livetube</c>
+              <c>100178</c>
+              <c>34561</c>
+            </r>
+            <r>
+              <c>1005</c>
+              <c>weeklychallen.ge@123abc.co.ayx</c>
+              <c>Leenti</c>
+              <c>100777</c>
+              <c>315264</c>
+            </r>
+            <r>
+              <c>1006</c>
+              <c>weeklychallen.g.e@123abc.co.ayx</c>
+              <c>Avaveo</c>
+              <c>100778</c>
+              <c>112051</c>
+            </r>
+            <r>
+              <c>1008</c>
+              <c>weeklychalle.nge@123abc.co.ayx</c>
+              <c>Leexo</c>
+              <c>100779</c>
+              <c>12546</c>
+            </r>
+            <r>
+              <c>1010</c>
+              <c>weeklychalle.ng.e@123abc.co.ayx</c>
+              <c>Eadel</c>
+              <c>100780</c>
+              <c>3648</c>
+            </r>
+            <r>
+              <c>1020</c>
+              <c>weeklychall.en.g.e@123abc.co.ayx</c>
+              <c>Meedoo</c>
+              <c>100180</c>
+              <c>76945</c>
+            </r>
+            <r>
+              <c>1030</c>
+              <c>weeklychal.len.ge@123abc.co.ayx</c>
+              <c>Dynava</c>
+              <c>98143</c>
+              <c>31548</c>
+            </r>
+            <r>
+              <c>1037</c>
+              <c>weeklychal.le.n.ge@123abc.co.ayx</c>
+              <c>Gabtype</c>
+              <c>99123</c>
+              <c>25198</c>
+            </r>
+            <r>
+              <c>1040</c>
+              <c>weeklychal.l.eng.e@123abc.co.ayx</c>
+              <c>Mynte</c>
+              <c>100776</c>
+              <c>94157</c>
+            </r>
+            <r>
+              <c>1051</c>
+              <c>weeklycha.lleng.e@123abc.co.ayx</c>
+              <c>Jamia</c>
+              <c>100772</c>
+              <c>106847</c>
+            </r>
+            <r>
+              <c>1081</c>
+              <c>weeklycha.l.le.nge@123abc.co.ayx</c>
+              <c>Eidel</c>
+              <c>100773</c>
+              <c>114721</c>
+            </r>
+            <r>
+              <c>1088</c>
+              <c>weeklycha.l.l.enge@123abc.co.ayx</c>
+              <c>Devcast</c>
+              <c>100775</c>
+              <c>101549</c>
+            </r>
+            <r>
+              <c>1095</c>
+              <c>weeklycha.l.l.e.nge@123abc.co.ayx</c>
+              <c>Zoomcast</c>
+              <c>100771</c>
+              <c>64921</c>
+            </r>
+            <r>
+              <c>1104</c>
+              <c>weeklycha.l.l.e.n.g.e@123abc.co.ayx</c>
+              <c>Flipstorm</c>
+              <c>100770</c>
+              <c>124513</c>
+            </r>
+            <r>
+              <c>1111</c>
+              <c>weeklych.alle.nge@123abc.co.ayx</c>
+              <c>Wordpedia</c>
+              <c>100183</c>
+              <c>19584</c>
+            </r>
+            <r>
+              <c>1115</c>
+              <c>weeklych.all.enge@123abc.co.ayx</c>
+              <c>Thoughtbeat</c>
+              <c>99358</c>
+              <c>156987</c>
+            </r>
+            <r>
+              <c>1191</c>
+              <c>weeklych.a.ll.en.g.e@123abc.co.ayx</c>
+              <c>Babblestorm</c>
+              <c>100187</c>
+              <c>115489</c>
+            </r>
+            <r>
+              <c>1194</c>
+              <c>weeklych.a.ll.e.ng.e@123abc.co.ayx</c>
+              <c>Youspan</c>
+              <c>100774</c>
+              <c>100215</c>
+            </r>
+            <r>
+              <c>1200</c>
+              <c>weeklych.a.ll.e.n.g.e@123abc.co.ayx</c>
+              <c>Zoomlounge</c>
+              <c>100185</c>
+              <c>10301</c>
+            </r>
+            <r>
+              <c>1219</c>
+              <c>weeklych.a.l.le.n.g.e@123abc.co.ayx</c>
+              <c>Fanoodle</c>
+              <c>100769</c>
+              <c>100362</c>
+            </r>
+            <r>
+              <c>1226</c>
+              <c>weeklych.a.l.l.eng.e@123abc.co.ayx</c>
+              <c>Skipstorm</c>
+              <c>100186</c>
+              <c>62548</c>
+            </r>
+            <r>
+              <c>1244</c>
+              <c>w.eeklychalleng.e@123abc.co.ayx</c>
+              <c>Ooba</c>
+              <c>99961</c>
+              <c>123987</c>
+            </r>
+            <r>
+              <c>1261</c>
+              <c>w.eeklychalle.n.ge@123abc.co.ayx</c>
+              <c>Browsecat</c>
+              <c>100179</c>
+              <c>31548</c>
+            </r>
+            <r>
+              <c>1271</c>
+              <c>w.eeklychall.eng.e@123abc.co.ayx</c>
+              <c>Skalith</c>
+              <c>100181</c>
+              <c>105489</c>
+            </r>
+            <r>
+              <c>1281</c>
+              <c>w.eeklychall.e.ng.e@123abc.co.ayx</c>
+              <c>Tazzy</c>
+              <c>102109</c>
+              <c>43156</c>
+            </r>
+            <r>
+              <c>1291</c>
+              <c>w.eeklychall.e.n.ge@123abc.co.ayx</c>
+              <c>Gabcube</c>
+              <c>100184</c>
+              <c>60315</c>
+            </r>
+            <r>
+              <c>1313</c>
+              <c>w.eeklychal.l.enge@123abc.co.ayx</c>
+              <c>Babbleblab</c>
+              <c>100190</c>
+              <c>130514</c>
+            </r>
+            <r>
+              <c>1361</c>
+              <c>w.eeklycha.lle.n.ge@123abc.co.ayx</c>
+              <c>Brainsphere</c>
+              <c>100032</c>
+              <c>54897</c>
+            </r>
+            <r>
+              <c>1369</c>
+              <c>w.eeklycha.ll.en.ge@123abc.co.ayx</c>
+              <c>Mudo</c>
+              <c>99541</c>
+              <c>259321</c>
+            </r>
+            <r>
+              <c>1382</c>
+              <c>w.eeklycha.ll.e.nge@123abc.co.ayx</c>
+              <c>Flashspan</c>
+              <c>100189</c>
+              <c>120541</c>
+            </r>
+            <r>
+              <c>1387</c>
+              <c>w.eeklycha.ll.e.n.ge@123abc.co.ayx</c>
+              <c>Flashdog</c>
+              <c>100781</c>
+              <c>116487</c>
+            </r>
+            <r>
+              <c>1393</c>
+              <c>w.eeklycha.ll.e.n.g.e@123abc.co.ayx</c>
+              <c>Chatterpoint</c>
+              <c>101241</c>
+              <c>121612</c>
+            </r>
+            <r>
+              <c>1398</c>
+              <c>w.eeklycha.l.lenge@123abc.co.ayx</c>
+              <c>Topiczoom</c>
+              <c>101849</c>
+              <c>103142</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="210" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\SAIVAM~1\AppData\Local\Temp\Engine_15376_dd2b907c404e4d059789eea08f76ed70_\Engine_1580_2238b5cc7b8d47afbaf584722911d5ef_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1038" y="798" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Email Output.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText>Email Output.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer ID" size="19" source="Summarize: GroupBy - Customer ID" type="String" />
+            <Field name="Company" size="255" source="Summarize: GroupBy - Company" type="V_String" />
+            <Field name="Order Number" size="255" source="Summarize: GroupBy - Order Number" type="String" />
+            <Field name="Email Address" size="255" source="Summarize: GroupBy - Email Address" type="V_String" />
+            <Field name="Qtt Coupons" source="Summarize: Count" type="Int64" />
+            <Field name="Coupon Code" size="1073741823" source="Summarize: Concat - Coupon Code" type="V_WString" />
+            <Field name="Text" size="2147483647" source="Report:Text:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1170" y="798" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\SAIVAM~1\AppData\Local\Temp\Engine_15376_dd2b907c404e4d059789eea08f76ed70_\Engine_1580_04f326ffea5549c79af6bcc50cef8ccd_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="246" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="1">
+          <Name />
+          <AnnotationText>Union both tables</AnnotationText>
+          <DefaultAnnotationText>Union both tables</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="366" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Order Number" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="1">
+          <Name />
+          <AnnotationText>Sort by Order Number</AnnotationText>
+          <DefaultAnnotationText>Order Number - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="474" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="FLOOR([Invoice Total]/30000)" field="Coupon Count" size="8" type="Int64" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="1">
+          <Name />
+          <AnnotationText><![CDATA[Compute no. of coupons
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Coupon Count = FLOOR([Invoice Total]/30000)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
+        <Position x="594" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name />
+          <CreateField_Name>Coupon ID</CreateField_Name>
+          <CreateField_Type>Int64</CreateField_Type>
+          <CreateField_Size>8</CreateField_Size>
+          <Expression_Init>1</Expression_Init>
+          <Expression_Cond>[Coupon ID] &lt;= [Coupon Count]</Expression_Cond>
+          <Expression_Loop>[Coupon ID] + 1</Expression_Loop>
+        </Configuration>
+        <Annotation DisplayMode="1">
+          <Name />
+          <AnnotationText>Add rows based on no. of coupons</AnnotationText>
+          <DefaultAnnotationText>Add rows based on no. of coupons</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="714" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType size="3">String</FieldType>
+          <FieldSize>3</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="1">
+          <Name />
+          <AnnotationText>Add row number</AnnotationText>
+          <DefaultAnnotationText>Add row number</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="822" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;ABC&quot; + [RecordID] + [Order Number] + ToString([Coupon ID], 0)" field="Cupon Code" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="1">
+          <Name />
+          <AnnotationText>Generate coupon code</AnnotationText>
+          <DefaultAnnotationText><![CDATA[Cupon Code = "ABC" + [RecordID] + [Order Number] + ToString([Coupon ID], 0)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="942" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Customer ID" action="GroupBy" rename="Customer ID" />
+            <SummarizeField field="Company" action="GroupBy" rename="Company" />
+            <SummarizeField field="Email Address" action="GroupBy" rename="Email Address" />
+            <SummarizeField field="Order Number" action="GroupBy" rename="Order Number" />
+            <SummarizeField field="Invoice Total" action="Sum" rename="Invoice Total" />
+            <SummarizeField field="Coupon Count" action="Count" rename="Coupon Count" />
+            <SummarizeField field="Cupon Code" action="Concat" rename="Coupon List">
+              <Concat_Start />
+              <Separator><![CDATA[, ]]></Separator>
+              <Concat_End />
+            </SummarizeField>
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="1">
+          <Name />
+          <AnnotationText>Group coupon codes by customers</AnnotationText>
+          <DefaultAnnotationText>Group coupon codes by customers</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerText.PortfolioComposerText">
+        <Position x="1050" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Images />
+          <Output>Text</Output>
+          <HeaderMode value="False" />
+          <RawMode value="False" />
+          <ValidatePCXML value="True" />
+          <Message />
+          <RichTextMode value="True" />
+          <RichTextString><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+\viewkind4\uc1\pard\fs24 Dear [Company:A],\par
+\par
+Please find below the coupon codes available to you this month for your purchase order volume:\par
+\par
+Quantity: [Coupon Count:0]\par
+Codes: [Coupon List:A]\par
+\par
+Kindly let us know in case of any questions.\par
+ \par
+Thank you!\par
+\par
+Best Regards,\par
+Sai Vamsy Dhulipala\par
+}
+]]></RichTextString>
+          <Styles>
+            <Style Name="TextStyle" />
+          </Styles>
+        </Configuration>
+        <Annotation DisplayMode="1">
+          <Name />
+          <AnnotationText>Add email text</AnnotationText>
+          <DefaultAnnotationText>Dear [Company:A],
+
+Please find...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTextPlugin" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1170" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\SAIVAM~1\AppData\Local\Temp\Engine_15376_dd2b907c404e4d059789eea08f76ed70_\Engine_1580_6198f6be57904bbd83a46c6f209ab0fb_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="152" y="1892" width="656" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#ffffff" Transparency="1" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="162" y="1926" width="636" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.”</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="False" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="-1" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_306_svd</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="48d28515-f693-4015-9d6e-8decfebb83c0" />
+      <Telemetry>
+        <PreviousWorkflowId value="edaf73ba-8e7d-437c-890d-6eb8c693b6ec" />
+        <OriginWorkflowId value="edaf73ba-8e7d-437c-890d-6eb8c693b6ec" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
